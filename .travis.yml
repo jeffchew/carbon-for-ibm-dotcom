@@ -29,12 +29,10 @@ jobs:
         - yarn build-storybook --loglevel verbose
         - aws s3 cp storybook-static s3://$COS_BUCKET/deploy-previews/$TRAVIS_PULL_REQUEST --recursive --endpoint https://$PREVIEW_DOMAIN
       after_success:
-        - "curl -H 'Authorization: token $GITHUB_TOKEN' -X POST \
-          -d {\"body\": \"Deploy preview created for package `Carbon Expressive`:
+        - "curl -H 'Authorization: token $GITHUB_TOKEN' -X POST -d {\"body\": \"Deploy preview created for package `React`:
           https://$COS_BUCKET/deploy-previews/${PREVIEW_URL}/$TRAVIS_PULL_REQUEST/index.html
 
-          Built with commit: [$TRAVIS_PULL_REQUEST_SHA](https://github.com/$TRAVIS_REPO_SLUG/commit/$TRAVIS_PULL_REQUEST_SHA})\"}" \
-          "https://api.github.com/repos/$TRAVIS_REPO_SLUG/issues/$TRAVIS_PULL_REQUEST/comments"
+          Built with commit: [$TRAVIS_PULL_REQUEST_SHA](https://github.com/$TRAVIS_REPO_SLUG/commit/$TRAVIS_PULL_REQUEST_SHA})\"} https://api.github.com/repos/$TRAVIS_REPO_SLUG/issues/$TRAVIS_PULL_REQUEST/comments"
     - stage: deploy-preview-expressive
       before_install:
           - aws --version
@@ -46,12 +44,10 @@ jobs:
         - yarn build-storybook --loglevel verbose
         - aws s3 cp storybook-static s3://carbon-expressive/deploy-previews/$TRAVIS_PULL_REQUEST --recursive --endpoint https://$PREVIEW_DOMAIN
       after_success:
-        - "curl -H 'Authorization: token $GITHUB_TOKEN' -X POST
-          -d {\"body\": \"Deploy preview created for package `Carbon Expressive`:
+        - "curl -H 'Authorization: token $GITHUB_TOKEN' -X POST -d {\"body\": \"Deploy preview created for package `Carbon Expressive`:
           https://$COS_BUCKET/deploy-previews/${PREVIEW_URL}/$TRAVIS_PULL_REQUEST/index.html
 
-          Built with commit: [$TRAVIS_PULL_REQUEST_SHA](https://github.com/$TRAVIS_REPO_SLUG/commit/$TRAVIS_PULL_REQUEST_SHA})\"}
-          https://api.github.com/repos/$TRAVIS_REPO_SLUG/issues/$TRAVIS_PULL_REQUEST/comments"
+          Built with commit: [$TRAVIS_PULL_REQUEST_SHA](https://github.com/$TRAVIS_REPO_SLUG/commit/$TRAVIS_PULL_REQUEST_SHA})\"} https://api.github.com/repos/$TRAVIS_REPO_SLUG/issues/$TRAVIS_PULL_REQUEST/comments"
 stages:
   - name: deploy-preview-react
     if: type = pull_request
