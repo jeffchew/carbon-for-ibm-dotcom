@@ -6,6 +6,9 @@ before_install:
   - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
   - sudo apt-get update -qq
   - sudo apt-get install -y -qq yarn
+  - pip install awscli --user
+  - aws configure set aws_access_key_id $COS_ACCESS_KEY_ID
+  - aws configure set aws_secret_access_key $COS_SECRET_ACCESS_KEY
 cache: yarn
 jobs:
   include:
@@ -19,14 +22,7 @@ jobs:
         - echo "SCROLL_TRACKING=true" >> .env
         - echo "CORS_PROXY=https://dds-proxy.mybluemix.net/" >> .env
         - yarn build-storybook --loglevel verbose
-      deploy:
-        provider: s3
-        access_key_id: $COS_ACCESS_KEY_ID
-        secret_access_key: $COS_SECRET_ACCESS_KEY
-        bucket: "ibmdotcom-react"
-        skip_cleanup: true
-        upload-dir: deploy-previews/$TRAVIS_PULL_REQUEST
-        endpoint: "https://s3.us-south.cloud-object-storage.appdomain.cloud"
+        - aws s3 cp storybook-static s3://ibmdotcom-react/deploy-previews/$TRAVIS_PULL_REQUEST --recursive --endpoint https://s3.us-south.cloud-object-storage.appdomain.cloud
     - stage: deploy-preview-expressive
       before_install:
           - "node ./travis/deploy_preview.js $TRAVIS_PULL_REQUEST 'package: styles'"
@@ -35,14 +31,7 @@ jobs:
         - yarn build
         - cd packages/styles
         - yarn build-storybook --loglevel verbose
-      deploy:
-        provider: s3
-        access_key_id: $COS_ACCESS_KEY_ID
-        secret_access_key: $COS_SECRET_ACCESS_KEY
-        bucket: "carbon-expressive"
-        skip_cleanup: true
-        upload-dir: deploy-previews/$TRAVIS_PULL_REQUEST
-        endpoint: "https://s3.us-south.cloud-object-storage.appdomain.cloud"
+        - aws s3 cp storybook-static s3://carbon-expressive/deploy-previews/$TRAVIS_PULL_REQUEST --recursive --endpoint https://s3.us-south.cloud-object-storage.appdomain.cloud
 stages:
   - name: deploy-preview-react
     if: type = pull_request
