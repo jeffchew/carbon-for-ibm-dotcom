@@ -27,6 +27,24 @@ jobs:
         skip_cleanup: true
         upload-dir: deploy-previews/$TRAVIS_PULL_REQUEST
         endpoint: "https://s3.us-south.cloud-object-storage.appdomain.cloud"
+    - stage: deploy-preview-expressive
+      before_install:
+          - "node ./travis/deploy_preview.js $TRAVIS_PULL_REQUEST 'package: styles'"
+      script:
+        - yarn install
+        - yarn build
+        - cd packages/styles
+        - yarn build-storybook --loglevel verbose
+      deploy:
+        provider: s3
+        access_key_id: $COS_ACCESS_KEY_ID
+        secret_access_key: $COS_SECRET_ACCESS_KEY
+        bucket: "carbon-expressive"
+        skip_cleanup: true
+        upload-dir: deploy-previews/$TRAVIS_PULL_REQUEST
+        endpoint: "https://s3.us-south.cloud-object-storage.appdomain.cloud"
 stages:
   - name: deploy-preview-react
+    if: type = pull_request
+  - name: deploy-preview-expressive
     if: type = pull_request
