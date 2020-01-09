@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - "10"
+before_install:
+  - sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
+  - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+  - sudo apt-get update -qq
+  - sudo apt-get install -y -qq yarn
+cache: yarn
+jobs:
+  include:
+    - stage: deploy-preview-react
+      before_install:
+        - "node ./travis/deploy_preview.js $TRAVIS_PULL_REQUEST 'package: react'"
+      script:
+        - yarn install
+        - yarn build
+        - cd packages/react
+        - echo "SCROLL_TRACKING=true" >> .env
+        - echo "CORS_PROXY=https://dds-proxy.mybluemix.net/" >> .env
+        - yarn build-storybook --loglevel verbose
+      deploy:
+        provider: s3
+        access_key_id: "YOUR AWS ACCESS KEY"
+        secret_access_key: "YOUR AWS SECRET KEY"
+        bucket: "ibmdotcom-react"
+        skip_cleanup: true
+        upload-dir: deploy-previews/$TRAVIS_PULL_REQUEST
+        endpoint: "https://s3.us-south.cloud-object-storage.appdomain.cloud"
+stages:
+  - name: deploy-preview-react
+    if: type = pull_request
