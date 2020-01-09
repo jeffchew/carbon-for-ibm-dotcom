@@ -36,20 +36,20 @@ const parsePR = res => {
     labels = JSON.parse(res).labels;
     if (!labels || labels.length === 0) {
       console.log(`no labels found attached to PR ${pullRequestId}`);
-      process.exit(1);
+      process.exit(0);
     }
   } catch (err) {
     console.error(`error parsing labels for PR ${pullRequestId}`);
     console.error(err);
-    process.exit(1);
+    process.exit(0);
   }
   const ciEnabledLabel = labels.find(item => item.name === label);
   if (ciEnabledLabel) {
     console.log(`label "${label}" found on PR ${pullRequestId}`);
-    process.exit(0);
+    return;
   }
   console.log(`label "${label}" not found on PR ${pullRequestId}`);
-  process.exit(1);
+  process.exit(0);
 };
 
 /**
