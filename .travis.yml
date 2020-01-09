@@ -7,11 +7,10 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y -qq yarn
   - pip install awscli --user
+  - export PATH=$PATH:$HOME/.local/bin
   - aws configure set aws_access_key_id $COS_ACCESS_KEY_ID
   - aws configure set aws_secret_access_key $COS_SECRET_ACCESS_KEY
 cache: yarn
-env:
-  - PREVIEW_DOMAIN=s3.us-south.cloud-object-storage.appdomain.cloud
 jobs:
   include:
     - stage: deploy-preview-react
