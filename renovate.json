@@ -1,5 +1,11 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["@carbon", "carbon-components", "carbon-components-react", "carbon-icons"]
+    }
+  ],
+  "rangeStrategy": "bump"
 }
