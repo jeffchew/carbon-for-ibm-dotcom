@@ -44,6 +44,38 @@ const Card = ({ copy = copyDefault, heading = headingDefault, href = hrefDefault
   </dds-card>
 `;
 
+const CardWithLongHeading = ({
+  copy = copyDefault,
+  heading = headingDefault,
+  href = hrefDefault,
+  image = undefined,
+} = {}) => html`
+  <dds-card href="${ifNonNull(href)}">
+    <dds-card-heading>${heading} ${heading}</dds-card-heading>
+    ${copy}
+    ${image
+      ? html`
+          <dds-image slot="image" alt="example image" default-src="${image}"></dds-image>
+        `
+      : null}
+    <dds-card-footer>
+      ${ArrowRight20({ slot: 'icon' })}
+    </dds-card-footer>
+  </dds-card>
+`;
+
+const CardWithVideo = ({ copy = copyDefault, heading = headingDefault, href = hrefDefault } = {}) => html`
+  <dds-video-cta-container>
+    <dds-card-cta cta-type="video" href="${href}">
+      <dds-card-heading>${heading}</dds-card-heading>
+      ${copy}
+      <dds-card-cta-footer href="${href}">
+        ${ArrowRight20({ slot: 'icon' })}
+      </dds-card-cta-footer>
+    </dds-card-cta>
+  </dds-video-cta-container>
+`;
+
 export const Default = ({ parameters }) => {
   const { cardSize } = parameters?.props?.Carousel ?? {};
   const classes = classMap({
@@ -51,7 +83,7 @@ export const Default = ({ parameters }) => {
   });
   return html`
     <dds-carousel class="${classes}">
-      ${Card()}${Card({ copy: copyOdd })}${Card()}${Card({ copy: copyOdd })}${Card()}
+      ${Card()}${Card({ copy: copyOdd })}${CardWithLongHeading()}${Card({ copy: copyOdd })}${Card()}
     </dds-carousel>
   `;
 };
@@ -71,41 +103,51 @@ export const CardsWithImages = ({ parameters }) => {
   `;
 };
 
-Default.story = {
-  parameters: {
-    gridCarouselClass: 'dds-ce-demo-devenv--simple-grid--carousel--full-16',
-  },
+export const CardsWithVideos = ({ parameters }) => {
+  const { cardSize } = parameters?.props?.Carousel ?? {};
+  const classes = classMap({
+    [cardSize]: cardSize,
+  });
+  return html`
+    <dds-carousel class="${classes}">
+      ${CardWithVideo({ href: '1_9h94wo6b' })} ${CardWithVideo({ href: '0_ibuqxqbe' })} ${CardWithVideo({ href: '1_9h94wo6b' })}
+      ${CardWithVideo({ href: '0_ibuqxqbe' })} ${CardWithVideo({ href: '1_9h94wo6b' })} ${CardWithVideo({ href: '0_ibuqxqbe' })}
+    </dds-carousel>
+  `;
 };
 
 CardsWithImages.story = {
   name: 'Cards with images',
+};
+
+CardsWithVideos.story = {
+  name: 'Cards with videos',
   parameters: {
-    gridCarouselClass: 'dds-ce-demo-devenv--simple-grid--carousel--full-16',
+    ...readme.parameters,
+    percy: {
+      skip: true,
+    },
   },
 };
 
 export default {
   title: 'Components/Carousel',
   decorators: [
-    (story, { parameters }) => {
-      const { gridCarouselClass } = parameters;
-      const classes = classMap({
-        'dds-ce-demo-devenv--simple-grid': true,
-        'dds-ce-demo-devenv--simple-grid--carousel': true,
-        [gridCarouselClass]: gridCarouselClass,
-      });
+    story => {
       return html`
         <style>
           ${styles}
         </style>
-        <div class="${classes}">
-          ${story()}
+        <div class="bx--grid">
+          <div class="bx--row">
+            ${story()}
+          </div>
         </div>
       `;
     },
   ],
   parameters: {
     ...readme.parameters,
-    hasGrid: true,
+    hasStoryPadding: true,
   },
 };

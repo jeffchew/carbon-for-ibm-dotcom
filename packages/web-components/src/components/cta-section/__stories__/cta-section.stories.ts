@@ -20,8 +20,6 @@ import '../../lightbox-media-viewer/lightbox-video-player-container';
 
 import content from './content';
 
-import styles from './cta-section.stories.scss';
-
 const contentItemTypeMap = {
   text: ({ heading, copy, links }) => html`
     <dds-cta-block-item>
@@ -33,16 +31,6 @@ const contentItemTypeMap = {
             <dds-text-cta slot="footer" cta-type="local" icon-placement="right" href="${elem.href}">${elem.copy}</dds-text-cta>
           `
       )}
-    </dds-cta-block-item>
-  `,
-  button: ({ heading, copy }) => html`
-    <dds-cta-block-item>
-      <dds-content-item-heading>${heading}</dds-content-item-heading>
-      <dds-content-item-copy>${copy}</dds-content-item-copy>
-      <dds-button-group slot="footer">
-        <dds-button-cta>Button 1</dds-button-cta>
-        <dds-button-cta>Button 2</dds-button-cta>
-      </dds-button-group>
     </dds-cta-block-item>
   `,
   statistics: ({ heading, copy, links }) => html`
@@ -111,30 +99,15 @@ const contentItemTypeMap = {
 
 const contentItemTypeOptions = {
   Text: 'text',
-  Button: 'button',
   Statistics: 'statistics',
   Pictogram: 'pictogram',
   Media: 'media',
 };
 
 const renderItems = (item, count) => {
-  if (count.length < 4) {
-    return html`
-      <dds-cta-block-item-row no-border>
-        ${count.map((_, index) => item({ ...content[index] }))}
-      </dds-cta-block-item-row>
-    `;
-  }
-
-  const itemArray = count;
-  const spliced = itemArray.splice(3);
-
   return html`
     <dds-cta-block-item-row>
-      ${itemArray.map((_, index) => item({ ...content[index] }))}
-    </dds-cta-block-item-row>
-    <dds-cta-block-item-row no-border>
-      ${spliced.map((_, index) => item({ ...content[index] }))}
+      ${count.map((_, index) => item({ ...content[index] }))}
     </dds-cta-block-item-row>
   `;
 };
@@ -231,9 +204,6 @@ export default {
   title: 'Components/CTA section',
   decorators: [
     story => html`
-      <style>
-        ${styles}
-      </style>
       ${story()}
     `,
   ],
@@ -246,5 +216,6 @@ export default {
       }),
     },
     ...readme.parameters,
+    hasStoryPadding: true,
   },
 };

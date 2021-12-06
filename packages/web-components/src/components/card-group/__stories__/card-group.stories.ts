@@ -283,7 +283,7 @@ export const withMixedMedia = ({ parameters }) => {
   const colCount = cardsPerRow[cardsPerRow.length - 1];
 
   return html`
-    <dds-video-cta-container class="${classes}">
+    <dds-video-cta-container>
       <dds-card-group cards-per-row="${colCount}" class="${classes}">
         ${cards}
       </dds-card-group>
@@ -376,15 +376,18 @@ export default {
       <style>
         ${styles}
       </style>
-      <div class="dds-ce-demo-devenv--simple-grid dds-ce-demo-devenv--simple-grid--card-group">
-        ${story()}
+      <div class="bx--grid">
+        <div class="bx--row">
+          <div class="bx--col-lg-12 bx--no-gutter">
+            ${story()}
+          </div>
+        </div>
       </div>
     `,
   ],
   parameters: {
-    hasGrid: true,
     ...readme.parameters,
-    hasCardGroupStandalone: true,
+    hasStoryPadding: true,
     knobs: {
       CardGroup: ({ groupId }) => ({
         defaultSrc: imgXlg4x3,

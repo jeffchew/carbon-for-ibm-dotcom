@@ -122,7 +122,9 @@ export const defaultLanguageOnly = ({ parameters }) => {
     selectedLanguage: 'English',
     adjunctLinks: [],
   };
-  return base({ parameters });
+  return html`
+    <div class="default-language-only">${base({ parameters })}</div>
+  `;
 };
 
 defaultLanguageOnly.story = {
@@ -235,8 +237,6 @@ export default {
   title: 'Components/Footer',
   parameters: {
     ...readme.parameters,
-    useRawContainer: true,
-    hasMainTag: true,
     knobs: {
       FooterComposite: ({ groupId }) => ({
         disableLocaleButton: boolean('hide the locale button (disable-locale-button)', false, groupId),
