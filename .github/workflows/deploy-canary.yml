@@ -39,7 +39,8 @@ jobs:
         working-directory: packages/react
       - name: Deploying @carbon/ibmdotcom-react storybook to Github Pages
         run: |
-          mv packages/react/storybook-static react/canary
+          rm -rf ./react/canary
+          mv ./packages/react/storybook-static ./react/canary
 
           git config --global user.email ${{ secrets.BOT_EMAIL }}
           git config --global user.name ${{ secrets.BOT_NAME }}
