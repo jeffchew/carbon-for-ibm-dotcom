@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   react:
-    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom'
+    if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -37,16 +37,20 @@ jobs:
       - name: Building @carbon/ibmdotcom-react storybook
         run: yarn build-storybook
         working-directory: packages/react
-      - name: Deploying @carbon/ibmdotcom-react storybook to IBM Cloud
-        uses: carbon-design-system/action-ibmcloud-cf@v1.3.0
-        with:
-          cloud-api-key: ${{ secrets.CLOUD_API_KEY }}
-          cf-org: ibm-digital-design
-          cf-space: ibmdotcom-production
-          cf-region: us-south
-          cf-app: ibmdotcom-react-canary
-          cf-manifest: manifest-canary.yml
-          deploy-dir: packages/react
+      - name: Deploying @carbon/ibmdotcom-react storybook to Github Pages
+        run: |
+          mv packages/react/storybook-static react/canary
+
+          git config --global user.email ${{ secrets.BOT_EMAIL }}
+          git config --global user.name ${{ secrets.BOT_NAME }}
+          git fetch "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" gh-pages
+
+          git add .
+          git commit -m "chore(deploy): deploy React canary to GitHub Pages"
+
+          if [ $? -eq 0 ]; then
+            git push --force "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" main:gh-pages > /dev/null 2>&1
+          fi
   react-experimental:
     if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
