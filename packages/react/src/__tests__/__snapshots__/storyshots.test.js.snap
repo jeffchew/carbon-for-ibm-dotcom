@@ -22,7 +22,7 @@ exports[`Storyshots Components|Back to top Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -101,7 +101,7 @@ exports[`Storyshots Components|Button group Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -400,7 +400,7 @@ exports[`Storyshots Components|CTA Button 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -874,7 +874,7 @@ exports[`Storyshots Components|CTA Card 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -1187,7 +1187,7 @@ exports[`Storyshots Components|CTA Feature 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -1522,7 +1522,7 @@ exports[`Storyshots Components|CTA Text 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -1730,7 +1730,7 @@ exports[`Storyshots Components|CTA section Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -2217,7 +2217,7 @@ exports[`Storyshots Components|CTA section With content items 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -2979,7 +2979,7 @@ exports[`Storyshots Components|Callout quote Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -3233,7 +3233,7 @@ exports[`Storyshots Components|Callout with media Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -3561,7 +3561,7 @@ exports[`Storyshots Components|Card Card static 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -3694,7 +3694,7 @@ exports[`Storyshots Components|Card Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -3908,7 +3908,7 @@ exports[`Storyshots Components|Card group Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -5216,7 +5216,7 @@ exports[`Storyshots Components|Card group With CTA 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -6642,7 +6642,7 @@ exports[`Storyshots Components|Card group With images 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -8180,7 +8180,7 @@ exports[`Storyshots Components|Card group With images and CTA 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -9835,7 +9835,7 @@ exports[`Storyshots Components|Card in card Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -9914,7 +9914,7 @@ exports[`Storyshots Components|Card link Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -10122,7 +10122,7 @@ exports[`Storyshots Components|Card section carousel Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -10201,7 +10201,7 @@ exports[`Storyshots Components|Card section images Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -11830,7 +11830,7 @@ exports[`Storyshots Components|Card section offset Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -11868,7 +11868,7 @@ exports[`Storyshots Components|Card section offset Default 1`] = `
        
       <a
         className="bx--link"
-        href="https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-card-section-offset"
+        href="https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-section-offset"
         target="_blank"
       >
         React wrapper
@@ -11909,7 +11909,7 @@ exports[`Storyshots Components|Card section simple Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -13251,7 +13251,7 @@ exports[`Storyshots Components|Card section simple With CTA 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -14730,7 +14730,7 @@ exports[`Storyshots Components|Carousel Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -14809,7 +14809,7 @@ exports[`Storyshots Components|Content block Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -15130,7 +15130,7 @@ exports[`Storyshots Components|Content block cards Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -16750,7 +16750,7 @@ exports[`Storyshots Components|Content block cards With images 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -18612,7 +18612,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -20422,7 +20422,7 @@ exports[`Storyshots Components|Content block horizontal Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -20438,6 +20438,7 @@ exports[`Storyshots Components|Content block horizontal Default 1`] = `
       },
       "props": Object {
         "ContentBlockHorizontal": Object {
+          "border": true,
           "heading": "Aliquam condimentum",
           "items": Array [
             Object {
@@ -20595,6 +20596,7 @@ exports[`Storyshots Components|Content block horizontal Default 1`] = `
           className="bx--col-sm-4 bx--col-lg-12 bx--offset-lg-4"
         >
           <ContentBlockHorizontal
+            border={true}
             heading="Aliquam condimentum"
             items={
               Array [
@@ -21573,7 +21575,7 @@ exports[`Storyshots Components|Content block media Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -21637,11 +21639,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                   "heading": "Lorem ipsum dolor sit amet.",
                 },
@@ -21698,11 +21700,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                   "heading": "Lorem ipsum dolor sit amet.",
                 },
@@ -21767,11 +21769,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                     "heading": "Lorem ipsum dolor sit amet.",
                   },
@@ -21887,11 +21889,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                       "heading": "Lorem ipsum dolor sit amet.",
                     },
@@ -21948,11 +21950,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                       "heading": "Lorem ipsum dolor sit amet.",
                     },
@@ -22065,11 +22067,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                             "heading": "Lorem ipsum dolor sit amet.",
                           },
@@ -22261,11 +22263,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 "
                                 heading="Lorem ipsum dolor sit amet."
                                 key="1"
@@ -22284,7 +22286,7 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
                                     className="bx--content-item__copy"
                                     dangerouslySetInnerHTML={
                                       Object {
-                                        "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 1a</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
+                                        "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list “item 1a”</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
                                       }
                                     }
                                     data-autoid="dds--content-item__copy"
@@ -22543,11 +22545,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                             "heading": "Lorem ipsum dolor sit amet.",
                           },
@@ -22739,11 +22741,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 "
                                 heading="Lorem ipsum dolor sit amet."
                                 key="1"
@@ -22762,7 +22764,7 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
                                     className="bx--content-item__copy"
                                     dangerouslySetInnerHTML={
                                       Object {
-                                        "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 1a</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
+                                        "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list “item 1a”</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
                                       }
                                     }
                                     data-autoid="dds--content-item__copy"
@@ -23264,7 +23266,7 @@ exports[`Storyshots Components|Content block media With link list 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -23355,11 +23357,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                   "heading": "Lorem ipsum dolor sit amet.",
                 },
@@ -23416,11 +23418,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                   "heading": "Lorem ipsum dolor sit amet.",
                 },
@@ -23485,11 +23487,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                     "heading": "Lorem ipsum dolor sit amet.",
                   },
@@ -23632,11 +23634,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                       "heading": "Lorem ipsum dolor sit amet.",
                     },
@@ -23693,11 +23695,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                       "heading": "Lorem ipsum dolor sit amet.",
                     },
@@ -23844,11 +23846,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                                 "heading": "Lorem ipsum dolor sit amet.",
                               },
@@ -24040,11 +24042,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 "
                                     heading="Lorem ipsum dolor sit amet."
                                     key="1"
@@ -24063,7 +24065,7 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
                                         className="bx--content-item__copy"
                                         dangerouslySetInnerHTML={
                                           Object {
-                                            "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 1a</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
+                                            "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list “item 1a”</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
                                           }
                                         }
                                         data-autoid="dds--content-item__copy"
@@ -24322,11 +24324,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                                 "heading": "Lorem ipsum dolor sit amet.",
                               },
@@ -24518,11 +24520,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 "
                                     heading="Lorem ipsum dolor sit amet."
                                     key="1"
@@ -24541,7 +24543,7 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
                                         className="bx--content-item__copy"
                                         dangerouslySetInnerHTML={
                                           Object {
-                                            "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 1a</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
+                                            "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list “item 1a”</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
                                           }
                                         }
                                         data-autoid="dds--content-item__copy"
@@ -25476,7 +25478,7 @@ exports[`Storyshots Components|Content block mixed Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -25606,11 +25608,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                   "heading": "Lorem ipsum dolor sit amet.",
                 },
@@ -25676,11 +25678,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                     "heading": "Lorem ipsum dolor sit amet.",
                   },
@@ -25869,11 +25871,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                       "heading": "Lorem ipsum dolor sit amet.",
                     },
@@ -27212,11 +27214,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                             "heading": "Lorem ipsum dolor sit amet.",
                           },
@@ -27399,11 +27401,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 "
                                 heading="Lorem ipsum dolor sit amet."
                                 key="1"
@@ -27422,7 +27424,7 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
                                     className="bx--content-item__copy"
                                     dangerouslySetInnerHTML={
                                       Object {
-                                        "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 1a</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
+                                        "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list “item 1a”</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
                                       }
                                     }
                                     data-autoid="dds--content-item__copy"
@@ -27695,7 +27697,7 @@ exports[`Storyshots Components|Content block mixed With link list 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -27850,11 +27852,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                   "heading": "Lorem ipsum dolor sit amet.",
                 },
@@ -27920,11 +27922,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                     "heading": "Lorem ipsum dolor sit amet.",
                   },
@@ -28140,11 +28142,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                       "heading": "Lorem ipsum dolor sit amet.",
                     },
@@ -29516,11 +29518,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                                 "heading": "Lorem ipsum dolor sit amet.",
                               },
@@ -29703,11 +29705,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 "
                                     heading="Lorem ipsum dolor sit amet."
                                     key="1"
@@ -29726,7 +29728,7 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
                                         className="bx--content-item__copy"
                                         dangerouslySetInnerHTML={
                                           Object {
-                                            "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 1a</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
+                                            "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list “item 1a”</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
                                           }
                                         }
                                         data-autoid="dds--content-item__copy"
@@ -30437,7 +30439,7 @@ exports[`Storyshots Components|Content block segmented Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -31325,7 +31327,7 @@ exports[`Storyshots Components|Content block segmented With link list 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -32747,7 +32749,7 @@ exports[`Storyshots Components|Content block simple Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -33136,7 +33138,7 @@ exports[`Storyshots Components|Content block simple With image 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -33639,7 +33641,7 @@ exports[`Storyshots Components|Content block simple With link list 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -34665,7 +34667,7 @@ exports[`Storyshots Components|Content block simple With video 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -35119,7 +35121,7 @@ exports[`Storyshots Components|Content group Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -35466,7 +35468,7 @@ exports[`Storyshots Components|Content group banner Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -35545,7 +35547,7 @@ exports[`Storyshots Components|Content group cards Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -36215,7 +36217,7 @@ exports[`Storyshots Components|Content group pictograms Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -37048,7 +37050,7 @@ exports[`Storyshots Components|Content group simple Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -37089,11 +37091,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
               "heading": "Lorem ipsum dolor sit amet.",
             },
@@ -37123,11 +37125,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                 "heading": "Lorem ipsum dolor sit amet.",
               },
@@ -37187,11 +37189,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 ",
                   "heading": "Lorem ipsum dolor sit amet.",
                 },
@@ -37391,11 +37393,11 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing](https://www.ibm.com) elit. 
 dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat __libero__.
 
 - [list item link](https://www.ibm.com)
-  1. list item 1a
+  1. list \\"item 1a\\"
   2. list item 2a
-    - list item 2a.a
+      - list item 2a.a
 1. list item 2
-  - list item 2a
+    - list item 2a
 "
                       heading="Lorem ipsum dolor sit amet."
                       key="1"
@@ -37414,7 +37416,7 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
                           className="bx--content-item__copy"
                           dangerouslySetInnerHTML={
                             Object {
-                              "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 1a</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
+                              "__html": "<p>Lorem ipsum <em>dolor</em> sit amet, consectetur adipiscing elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, <em>consequat</em> libero. Here are some common categories:</p> <p>Lorem ipsum dolor sit amet, <a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">consectetur adipiscing</a> elit. Aenean et ultricies est. Mauris iaculis eget dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequat <strong>libero</strong>.</p> <ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\"><a href=\\"https://www.ibm.com\\" class=\\"bx--link bx--link--lg\\">list item link</a><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list “item 1a”</li><li class=\\"bx--list__item\\">list item 2a<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a.a</li></ul></li></ol></li></ul><ol class=\\"bx--list--ordered\\"><li class=\\"bx--list__item\\">list item 2<ul class=\\"bx--list--unordered\\"><li class=\\"bx--list__item\\">list item 2a</li></ul></li></ol>",
                             }
                           }
                           data-autoid="dds--content-item__copy"
@@ -37682,7 +37684,7 @@ exports[`Storyshots Components|Content item Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -37922,7 +37924,7 @@ exports[`Storyshots Components|Content item horizontal Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -38347,7 +38349,7 @@ exports[`Storyshots Components|Content item horizontal With media 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -38438,7 +38440,7 @@ exports[`Storyshots Components|Content item horizontal With thumbnail 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -38529,7 +38531,7 @@ exports[`Storyshots Components|Content section Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -38736,7 +38738,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -38955,7 +38957,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -46313,7 +46315,7 @@ exports[`Storyshots Components|Dotcom shell Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -52418,7 +52420,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -52491,7 +52493,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -58792,7 +58794,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -59172,7 +59174,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -70409,7 +70411,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -70630,7 +70632,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -76917,7 +76919,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -76991,7 +76993,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -82681,7 +82683,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -82757,7 +82759,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -88908,7 +88910,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -89128,7 +89130,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -96486,7 +96488,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -96559,7 +96561,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -102655,7 +102657,7 @@ exports[`Storyshots Components|Expressive modal Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -102945,7 +102947,7 @@ exports[`Storyshots Components|Expressive modal Expanded 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -103232,7 +103234,7 @@ exports[`Storyshots Components|Feature card Large 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -103614,7 +103616,7 @@ exports[`Storyshots Components|Feature card Medium 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -103859,7 +103861,7 @@ exports[`Storyshots Components|Feature section Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -103897,7 +103899,7 @@ exports[`Storyshots Components|Feature section Default 1`] = `
        
       <a
         className="bx--link"
-        href="https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-feature-section"
+        href="https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-feature-section"
         target="_blank"
       >
         React wrapper
@@ -103935,7 +103937,7 @@ exports[`Storyshots Components|Filter panel Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -103973,7 +103975,7 @@ exports[`Storyshots Components|Filter panel Default 1`] = `
        
       <a
         className="bx--link"
-        href="https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-filter-panel"
+        href="https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-filter-panel"
         target="_blank"
       >
         React wrapper
@@ -104017,7 +104019,7 @@ exports[`Storyshots Components|Footer Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -104545,7 +104547,7 @@ exports[`Storyshots Components|Footer Default language only 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -104754,7 +104756,7 @@ exports[`Storyshots Components|Footer Default language only 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -106390,7 +106392,7 @@ exports[`Storyshots Components|Footer Default with adjunct legal links 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -106942,7 +106944,7 @@ exports[`Storyshots Components|Footer Micro 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -107012,7 +107014,7 @@ exports[`Storyshots Components|Footer Micro 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -107128,7 +107130,7 @@ exports[`Storyshots Components|Footer Micro language only 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -107343,7 +107345,7 @@ exports[`Storyshots Components|Footer Micro language only 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -107903,7 +107905,7 @@ exports[`Storyshots Components|Footer Short 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -107970,7 +107972,7 @@ exports[`Storyshots Components|Footer Short 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -108485,7 +108487,7 @@ exports[`Storyshots Components|Footer Short language only 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -108702,7 +108704,7 @@ exports[`Storyshots Components|Footer Short language only 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -110339,7 +110341,7 @@ exports[`Storyshots Components|Footer Short with adjunct legal links 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -110406,7 +110408,7 @@ exports[`Storyshots Components|Footer Short with adjunct legal links 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -110953,7 +110955,7 @@ exports[`Storyshots Components|Horizontal rule Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -111079,7 +111081,7 @@ exports[`Storyshots Components|Image Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -111219,7 +111221,7 @@ exports[`Storyshots Components|Image with caption Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -111444,7 +111446,7 @@ exports[`Storyshots Components|Layout Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -111751,7 +111753,7 @@ exports[`Storyshots Components|Lead space Centered 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -112107,7 +112109,7 @@ exports[`Storyshots Components|Lead space Centered with image 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -112519,7 +112521,7 @@ exports[`Storyshots Components|Lead space Medium 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -112592,7 +112594,7 @@ exports[`Storyshots Components|Lead space Medium 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -112659,7 +112661,7 @@ exports[`Storyshots Components|Lead space Medium 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -113012,7 +113014,7 @@ exports[`Storyshots Components|Lead space Medium with image 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -113101,7 +113103,7 @@ exports[`Storyshots Components|Lead space Medium with image 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -113184,7 +113186,7 @@ exports[`Storyshots Components|Lead space Medium with image 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -113609,7 +113611,7 @@ exports[`Storyshots Components|Lead space Super 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -113682,7 +113684,7 @@ exports[`Storyshots Components|Lead space Super 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -113749,7 +113751,7 @@ exports[`Storyshots Components|Lead space Super 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -114102,7 +114104,7 @@ exports[`Storyshots Components|Lead space Super with image 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -114191,7 +114193,7 @@ exports[`Storyshots Components|Lead space Super with image 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -114274,7 +114276,7 @@ exports[`Storyshots Components|Lead space Super with image 1`] = `
                 "barTextColor": "#999999",
                 "base": "light",
                 "brandTitle": "Carbon for IBM.com React v1.29.1",
-                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+                "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
                 "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -114699,7 +114701,7 @@ exports[`Storyshots Components|Lead space Tall 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -114771,7 +114773,7 @@ exports[`Storyshots Components|Lead space Tall 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -115121,7 +115123,7 @@ exports[`Storyshots Components|Lead space Tall with image 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -115546,7 +115548,7 @@ exports[`Storyshots Components|Lead space block Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -116462,7 +116464,7 @@ exports[`Storyshots Components|Lead space block With Video 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -117323,7 +117325,7 @@ exports[`Storyshots Components|Leaving IBM Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -117402,7 +117404,7 @@ exports[`Storyshots Components|Lightbox media viewer Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -117658,7 +117660,7 @@ exports[`Storyshots Components|Lightbox media viewer Embedded video player 1`] =
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -117732,7 +117734,7 @@ exports[`Storyshots Components|Lightbox media viewer Embedded video player 1`] =
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -117968,7 +117970,7 @@ exports[`Storyshots Components|Link list Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -118967,7 +118969,7 @@ exports[`Storyshots Components|Link list End of section 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -119600,7 +119602,7 @@ exports[`Storyshots Components|Link list Horizontal 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -119972,7 +119974,7 @@ exports[`Storyshots Components|Link list Vertical 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -120611,7 +120613,7 @@ exports[`Storyshots Components|Link list Vertical with cards 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -122108,7 +122110,7 @@ exports[`Storyshots Components|Link with icon Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -122235,7 +122237,7 @@ exports[`Storyshots Components|Locale modal Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -122598,7 +122600,7 @@ exports[`Storyshots Components|Logo grid Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -123050,7 +123052,7 @@ exports[`Storyshots Components|Masthead Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -123769,7 +123771,7 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -124691,7 +124693,7 @@ exports[`Storyshots Components|Masthead With L1 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -125065,7 +125067,7 @@ exports[`Storyshots Components|Masthead With L1 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -130628,7 +130630,7 @@ exports[`Storyshots Components|Masthead With alternate logo and tooltip 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -131535,7 +131537,7 @@ exports[`Storyshots Components|Masthead With custom navigation 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -131904,7 +131906,7 @@ exports[`Storyshots Components|Masthead With custom navigation 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -137436,7 +137438,7 @@ exports[`Storyshots Components|Masthead With platform 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -137498,7 +137500,7 @@ exports[`Storyshots Components|Masthead With platform 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -138256,7 +138258,7 @@ exports[`Storyshots Components|Pictogram item Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -138554,7 +138556,7 @@ exports[`Storyshots Components|Quote Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -138763,7 +138765,7 @@ exports[`Storyshots Components|Search With Typeahead Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -138842,7 +138844,7 @@ exports[`Storyshots Components|Table of contents Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139282,7 +139284,7 @@ exports[`Storyshots Components|Table of contents Horizontal 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139359,7 +139361,7 @@ exports[`Storyshots Components|Tabs extended Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139435,7 +139437,7 @@ exports[`Storyshots Components|Tabs extended media Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139511,7 +139513,7 @@ exports[`Storyshots Components|Tag group Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139587,7 +139589,7 @@ exports[`Storyshots Components|Tag link Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139666,7 +139668,7 @@ exports[`Storyshots Components|Video player Aspect ratio 1:1 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139727,7 +139729,7 @@ exports[`Storyshots Components|Video player Aspect ratio 1:1 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139859,7 +139861,7 @@ exports[`Storyshots Components|Video player Aspect ratio 4:3 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -139920,7 +139922,7 @@ exports[`Storyshots Components|Video player Aspect ratio 4:3 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -140052,7 +140054,7 @@ exports[`Storyshots Components|Video player Default 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -140189,7 +140191,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
           "barTextColor": "#999999",
           "base": "light",
           "brandTitle": "Carbon for IBM.com React v1.29.1",
-          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+          "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
           "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
@@ -140250,7 +140252,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
               "barTextColor": "#999999",
               "base": "light",
               "brandTitle": "Carbon for IBM.com React v1.29.1",
-              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/react",
+              "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
               "fontBase": "\\"IBM Plex Sans\\", \\"Helvetica Neue\\", Arial, sans-serif",
