@@ -13,8 +13,8 @@ jobs:
   react:
     if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
-#    env:
-#      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 14.x
@@ -327,7 +327,7 @@ jobs:
         run: |
           rm -rf canary/web-components-react
           mkdir -p canary
-          mv packages/web-components/storybook-static canary/web-components-react
+          mv packages/web-components/storybook-static-react canary/web-components-react
 
           git config --global user.email ${{ secrets.BOT_EMAIL }}
           git config --global user.name ${{ secrets.BOT_NAME }}

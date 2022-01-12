@@ -1,4 +1,4 @@
-name: deploy-staging (Deploy storybook environments to IBM Cloud)
+name: deploy-staging (Deploy storybook environments to Github Pages)
 
 on:
   push:
@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   react:
-    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom'
+    if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -38,17 +38,27 @@ jobs:
         run: yarn build-storybook
         working-directory: packages/react
       - name: Deploying @carbon/ibmdotcom-react (staging) storybook to IBM Cloud
-        uses: carbon-design-system/action-ibmcloud-cf@v1.3.0
-        with:
-          cloud-api-key: ${{ secrets.CLOUD_API_KEY }}
-          cf-org: ibm-digital-design
-          cf-space: ibmdotcom-production
-          cf-region: us-south
-          cf-app: ibmdotcom-react-staging
-          cf-manifest: manifest-staging.yml
-          deploy-dir: packages/react
+        run: |
+          rm -rf staging/react
+          mkdir -p staging
+          mv packages/react/storybook-static staging/react
+
+          git config --global user.email ${{ secrets.BOT_EMAIL }}
+          git config --global user.name ${{ secrets.BOT_NAME }}
+          git fetch "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" gh-pages
+
+          git add staging/react
+          git commit -m "chore(deploy): deploy React staging to GitHub Pages"
+
+          if [ $? -eq 0 ]; then
+            git push --force "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" main:gh-pages > /dev/null 2>&1
+          fi
+#      - uses: act10ns/slack@v1
+#        with:
+#          status: ${{ job.status }}
+#        if: failure()
   react-rtl:
-    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom'
+    if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -76,21 +86,27 @@ jobs:
         run: yarn build-storybook
         working-directory: packages/react
       - name: Deploying @carbon/ibmdotcom-react (RTL) storybook to IBM Cloud
-        uses: carbon-design-system/action-ibmcloud-cf@v1.3.0
-        with:
-          cloud-api-key: ${{ secrets.CLOUD_API_KEY }}
-          cf-org: ibm-digital-design
-          cf-space: ibmdotcom-production
-          cf-region: us-south
-          cf-app: ibmdotcom-react-rtl-staging
-          cf-manifest: manifest-rtl-staging.yml
-          deploy-dir: packages/react
-      - uses: act10ns/slack@v1
-        with:
-          status: ${{ job.status }}
-        if: failure()
+        run: |
+          rm -rf staging/react-rtl
+          mkdir -p staging
+          mv packages/react/storybook-static staging/react-rtl
+
+          git config --global user.email ${{ secrets.BOT_EMAIL }}
+          git config --global user.name ${{ secrets.BOT_NAME }}
+          git fetch "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" gh-pages
+
+          git add staging/react-rtl
+          git commit -m "chore(deploy): deploy React (RTL) staging to GitHub Pages"
+
+          if [ $? -eq 0 ]; then
+            git push --force "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" main:gh-pages > /dev/null 2>&1
+          fi
+#      - uses: act10ns/slack@v1
+#        with:
+#          status: ${{ job.status }}
+#        if: failure()
   web-components:
-    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom'
+    if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -117,21 +133,27 @@ jobs:
         run: yarn build-storybook
         working-directory: packages/web-components
       - name: Deploying @carbon/ibmdotcom-web-components (staging) storybook to IBM Cloud
-        uses: carbon-design-system/action-ibmcloud-cf@v1.3.0
-        with:
-          cloud-api-key: ${{ secrets.CLOUD_API_KEY }}
-          cf-org: ibm-digital-design
-          cf-space: ibmdotcom-production
-          cf-region: us-south
-          cf-app: ibmdotcom-web-components-staging
-          cf-manifest: manifest-staging.yml
-          deploy-dir: packages/web-components
-      - uses: act10ns/slack@v1
-        with:
-          status: ${{ job.status }}
-        if: failure()
+        run: |
+          rm -rf staging/web-components
+          mkdir -p staging
+          mv packages/web-components/storybook-static staging/web-components
+
+          git config --global user.email ${{ secrets.BOT_EMAIL }}
+          git config --global user.name ${{ secrets.BOT_NAME }}
+          git fetch "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" gh-pages
+
+          git add staging/web-components
+          git commit -m "chore(deploy): deploy Web Components staging to GitHub Pages"
+
+          if [ $? -eq 0 ]; then
+            git push --force "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" main:gh-pages > /dev/null 2>&1
+          fi
+#      - uses: act10ns/slack@v1
+#        with:
+#          status: ${{ job.status }}
+#        if: failure()
   web-components-rtl:
-    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom'
+    if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -159,16 +181,22 @@ jobs:
         run: yarn build-storybook
         working-directory: packages/web-components
       - name: Deploying @carbon/ibmdotcom-web-components RTL storybook to IBM Cloud
-        uses: carbon-design-system/action-ibmcloud-cf@v1.3.0
-        with:
-          cloud-api-key: ${{ secrets.CLOUD_API_KEY }}
-          cf-org: ibm-digital-design
-          cf-space: ibmdotcom-production
-          cf-region: us-south
-          cf-app: ibmdotcom-web-components-rtl-staging
-          cf-manifest: manifest-rtl-staging.yml
-          deploy-dir: packages/web-components
-      - uses: act10ns/slack@v1
-        with:
-          status: ${{ job.status }}
-        if: failure()
+        run: |
+          rm -rf staging/web-components-rtl
+          mkdir -p staging
+          mv packages/web-components/storybook-static staging/web-components-rtl
+
+          git config --global user.email ${{ secrets.BOT_EMAIL }}
+          git config --global user.name ${{ secrets.BOT_NAME }}
+          git fetch "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" gh-pages
+
+          git add staging/web-components-rtl
+          git commit -m "chore(deploy): deploy Web Components (RTL) staging to GitHub Pages"
+
+          if [ $? -eq 0 ]; then
+            git push --force "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" main:gh-pages > /dev/null 2>&1
+          fi
+#      - uses: act10ns/slack@v1
+#        with:
+#          status: ${{ job.status }}
+#        if: failure()
