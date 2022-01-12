@@ -339,10 +339,10 @@ jobs:
           if [ $? -eq 0 ]; then
             git push --force "https://git:${BOT_TOKEN}@github.com/jeffchew/carbon-for-ibm-dotcom.git" main:gh-pages > /dev/null 2>&1
           fi
-      - uses: act10ns/slack@v1
-        with:
-          status: ${{ job.status }}
-        if: failure()
+#      - uses: act10ns/slack@v1
+#        with:
+#          status: ${{ job.status }}
+#        if: failure()
   services:
     if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
