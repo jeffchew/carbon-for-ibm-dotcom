@@ -38,7 +38,7 @@ export default class Container extends Component {
       document.body.classList.add(`dds-theme-zone-${theme}`);
     }
 
-    if (STORYBOOK_USE_RTL) {
+    if (typeof STORYBOOK_USE_RTL !== 'undefined' && STORYBOOK_USE_RTL) {
       document.documentElement.dir = 'rtl';
       document.getElementsByTagName('html')[0].setAttribute('dir', 'rtl');
     }
