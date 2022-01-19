@@ -13,8 +13,6 @@ jobs:
   react:
     if: github.repository == 'jeffchew/carbon-for-ibm-dotcom'
     runs-on: ubuntu-20.04
-    env:
-      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -36,7 +34,6 @@ jobs:
           KALTURA_PARTNER_ID: ${{ secrets.KALTURA_PARTNER_ID }}
           KALTURA_UICONF_ID: ${{ secrets.KALTURA_UICONF_ID }}
           PROFILE_HOST: ${{ secrets.PROFILE_HOST }}
-          SLACK_WEBHOOK_URL: ''
       - name: Building @carbon/ibmdotcom-react storybook
         run: yarn build-storybook
         working-directory: packages/react
@@ -53,7 +50,6 @@ jobs:
           KALTURA_PARTNER_ID: ${{ secrets.KALTURA_PARTNER_ID }}
           KALTURA_UICONF_ID: ${{ secrets.KALTURA_UICONF_ID }}
           PROFILE_HOST: ${{ secrets.PROFILE_HOST }}
-          SLACK_WEBHOOK_URL: ''
           DDS_FLAGS_ALL: true
       - name: Building @carbon/ibmdotcom-react (experimental) storybook
         run: yarn build-storybook:experimental
@@ -70,7 +66,6 @@ jobs:
           KALTURA_PARTNER_ID: ${{ secrets.KALTURA_PARTNER_ID }}
           KALTURA_UICONF_ID: ${{ secrets.KALTURA_UICONF_ID }}
           PROFILE_HOST: ${{ secrets.PROFILE_HOST }}
-          SLACK_WEBHOOK_URL: ''
       - name: Building @carbon/ibmdotcom-react (RTL) storybook
         run: yarn build-storybook:rtl
         working-directory: packages/react
@@ -103,6 +98,8 @@ jobs:
           git push origin gh-pages
       - uses: act10ns/slack@v1
 #        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         with:
           status: ${{ job.status }}
   web-components:
