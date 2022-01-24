@@ -19012,6 +19012,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         },
                                         "media": Object {
                                           "src": "1_9h94wo6b",
@@ -19049,6 +19050,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         }
                                       }
                                       media={
@@ -19088,6 +19090,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                             classname="bx--card__img"
                                             defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                             icon={[Function]}
+                                            refImage={[Function]}
                                           />
                                           <div
                                             className="bx--card__wrapper"
@@ -19265,6 +19268,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         },
                                         "media": Object {
                                           "src": "1_9h94wo6b",
@@ -19302,6 +19306,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         }
                                       }
                                       media={
@@ -19341,6 +19346,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                             classname="bx--card__img"
                                             defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                             icon={[Function]}
+                                            refImage={[Function]}
                                           />
                                           <div
                                             className="bx--card__wrapper"
@@ -19518,6 +19524,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         },
                                         "media": Object {
                                           "src": "1_9h94wo6b",
@@ -19555,6 +19562,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         }
                                       }
                                       media={
@@ -19594,6 +19602,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                             classname="bx--card__img"
                                             defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                             icon={[Function]}
+                                            refImage={[Function]}
                                           />
                                           <div
                                             className="bx--card__wrapper"
@@ -19771,6 +19780,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         },
                                         "media": Object {
                                           "src": "1_9h94wo6b",
@@ -19808,6 +19818,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         }
                                       }
                                       media={
@@ -19847,6 +19858,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                             classname="bx--card__img"
                                             defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                             icon={[Function]}
+                                            refImage={[Function]}
                                           />
                                           <div
                                             className="bx--card__wrapper"
@@ -20024,6 +20036,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         },
                                         "media": Object {
                                           "src": "1_9h94wo6b",
@@ -20061,6 +20074,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                           "alt": "",
                                           "defaultSrc": "https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320",
                                           "icon": [Function],
+                                          "refImage": [Function],
                                         }
                                       }
                                       media={
@@ -20100,6 +20114,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
                                             classname="bx--card__img"
                                             defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                             icon={[Function]}
+                                            refImage={[Function]}
                                           />
                                           <div
                                             className="bx--card__wrapper"
@@ -30973,6 +30988,7 @@ exports[`Storyshots Components|Content block segmented Default 1`] = `
                                             alt=""
                                             defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                             icon={[Function]}
+                                            refImage={[Function]}
                                           />
                                         </button>
                                       </VideoImageOverlay>
@@ -31962,6 +31978,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum to
                                                 alt=""
                                                 defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                 icon={[Function]}
+                                                refImage={[Function]}
                                               />
                                             </button>
                                           </VideoImageOverlay>
@@ -34872,6 +34889,7 @@ exports[`Storyshots Components|Content block simple With video 1`] = `
                                       alt=""
                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                       icon={[Function]}
+                                      refImage={[Function]}
                                     />
                                   </button>
                                 </VideoImageOverlay>
@@ -40259,6 +40277,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -42255,6 +42274,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -47331,6 +47351,7 @@ exports[`Storyshots Components|Dotcom shell Default 1`] = `
                                                     alt=""
                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                     icon={[Function]}
+                                                    refImage={[Function]}
                                                   />
                                                 </button>
                                               </VideoImageOverlay>
@@ -49327,6 +49348,7 @@ exports[`Storyshots Components|Dotcom shell Default 1`] = `
                                                                   alt=""
                                                                   defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                   icon={[Function]}
+                                                                  refImage={[Function]}
                                                                 />
                                                               </button>
                                                             </VideoImageOverlay>
@@ -53706,6 +53728,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -55702,6 +55725,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -65330,6 +65354,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -67326,6 +67351,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -71938,6 +71964,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -73934,6 +73961,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -78005,6 +78033,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -80001,6 +80030,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -83822,6 +83852,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -85818,6 +85849,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -90434,6 +90466,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -92430,6 +92463,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -97571,6 +97605,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
@@ -99567,6 +99602,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
                                                                     alt=""
                                                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                                     icon={[Function]}
+                                                                    refImage={[Function]}
                                                                   />
                                                                 </button>
                                                               </VideoImageOverlay>
@@ -116728,6 +116764,7 @@ exports[`Storyshots Components|Lead space block With Video 1`] = `
                                     alt=""
                                     defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                     icon={[Function]}
+                                    refImage={[Function]}
                                   />
                                 </button>
                               </VideoImageOverlay>
@@ -139811,6 +139848,7 @@ exports[`Storyshots Components|Video player Aspect ratio 1:1 1`] = `
                           alt=""
                           defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                           icon={[Function]}
+                          refImage={[Function]}
                         />
                       </button>
                     </VideoImageOverlay>
@@ -140004,6 +140042,7 @@ exports[`Storyshots Components|Video player Aspect ratio 4:3 1`] = `
                           alt=""
                           defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                           icon={[Function]}
+                          refImage={[Function]}
                         />
                       </button>
                     </VideoImageOverlay>
@@ -140142,6 +140181,7 @@ exports[`Storyshots Components|Video player Default 1`] = `
                         alt=""
                         defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                         icon={[Function]}
+                        refImage={[Function]}
                       />
                     </button>
                   </VideoImageOverlay>
@@ -140334,6 +140374,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
                           alt=""
                           defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                           icon={[Function]}
+                          refImage={[Function]}
                         />
                       </button>
                     </VideoImageOverlay>
@@ -140485,6 +140526,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
                                                       alt=""
                                                       defaultSrc="https://cdnsecakmi.kaltura.com/p/123456/thumbnail/entry_id/1_9h94wo6b/width/320"
                                                       icon={[Function]}
+                                                      refImage={[Function]}
                                                     />
                                                   </button>
                                                 </VideoImageOverlay>
