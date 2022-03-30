@@ -1,20 +1,20 @@
 /**
  * @license
  *
- * Copyright IBM Corp. 2020, 2021
+ * Copyright IBM Corp. 2020, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
 import { classMap } from 'lit-html/directives/class-map';
-import { html, internalProperty, property, query, customElement } from 'lit-element';
+import { html, state, property, query, customElement } from 'lit-element';
 import HostListener from 'carbon-web-components/es/globals/decorators/host-listener.js';
 import HostListenerMixin from 'carbon-web-components/es/globals/mixins/host-listener.js';
 import settings from 'carbon-components/es/globals/js/settings';
-import ddsSettings from '@carbon/ibmdotcom-utilities/es/utilities/settings/settings.js';
 import BXHeaderMenuButton from 'carbon-web-components/es/components/ui-shell/header-menu-button.js';
-import focuswrap from '@carbon/ibmdotcom-utilities/es/utilities/focuswrap/focuswrap.js';
+import ddsSettings from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/settings/settings';
+import focuswrap from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/focuswrap/focuswrap';
 import Handle from '../../globals/internal/handle';
 import styles from './masthead.scss';
 
@@ -36,7 +36,7 @@ class DDSMastheadMenuButton extends HostListenerMixin(BXHeaderMenuButton) {
   /**
    * Search bar opened flag.
    */
-  @internalProperty()
+  @state()
   private _hasSearchActive = false;
 
   /**
@@ -105,32 +105,23 @@ class DDSMastheadMenuButton extends HostListenerMixin(BXHeaderMenuButton) {
     }
   }
 
+  private _renderSentinel = (side: String) => {
+    return html`
+      <button id="${side}-sentinel" type="button" class="${prefix}--visually-hidden"></button>
+    `;
+  };
+
   render() {
-    const { active, _hasSearchActive: hasSearchActive } = this;
+    const { active, _hasSearchActive: hasSearchActive, _renderSentinel: renderSentinel } = this;
     const classes = classMap({
       [`${ddsPrefix}-ce--header__menu-trigger__container`]: true,
       [`${ddsPrefix}-ce--header__menu-trigger__container--has-search-active`]: hasSearchActive,
     });
-    const sentinelTabIndex = !active ? -1 : 0;
+    const startSentinel = active ? renderSentinel('start') : '';
+    const endSentinel = active ? renderSentinel('end') : '';
     return html`
       <div class="${classes}">
-        <a
-          id="start-sentinel"
-          tabindex="${sentinelTabIndex}"
-          class="${prefix}--visually-hidden"
-          href="javascript:void 0"
-          role="navigation"
-        >
-        </a>
-        ${super.render()}
-        <a
-          id="end-sentinel"
-          tabindex="${sentinelTabIndex}"
-          class="${prefix}--visually-hidden"
-          href="javascript:void 0"
-          role="navigation"
-        >
-        </a>
+        ${startSentinel}${super.render()}${endSentinel}
       </div>
     `;
   }

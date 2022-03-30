@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corp. 2021
+ * Copyright IBM Corp. 2021, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -39,6 +39,9 @@ const getTopElement = (x, y, root = window.document) => {
  * @private
  */
 const _tests = {
+  checkA11y: () => {
+    cy.checkAxeA11y();
+  },
   checkBlockLink: () => {
     cy.get('.bx--feature-card').then(card => {
       const bcr = card[0].getBoundingClientRect();
@@ -64,7 +67,14 @@ const _tests = {
   checkHorizontalLayout: () => {
     let cardBox, imageBox, contentBox;
 
-    cy.get('.bx--feature-card')
+    cy.waitUntil(() => {
+        // Waits for image to load and page to redo layout.
+        return (
+          cy.get('.bx--feature-card .bx--image')
+            .then(([image]) => image.getBoundingClientRect().height > 0)
+        );
+      })
+      .get('.bx--feature-card')
       .then(([card]) => {
         cardBox = card.getBoundingClientRect();
       })
@@ -93,7 +103,14 @@ const _tests = {
   checkVerticalLayout: () => {
     let cardBox, imageBox, contentBox;
 
-    cy.get('.bx--feature-card')
+    cy.waitUntil(() => {
+        // Waits for image to load and page to redo layout.
+        return (
+          cy.get('.bx--feature-card .bx--image')
+            .then(([image]) => image.getBoundingClientRect().height > 0)
+        );
+      })
+      .get('.bx--feature-card')
       .then(([card]) => {
         cardBox = card.getBoundingClientRect();
       })
@@ -169,15 +186,14 @@ describe('dds-feature-cta | (desktop)', () => {
   beforeEach(() => {
     cy.viewport(1280, 720);
     cy.visit(`/${_paths.default}`);
+    cy.injectAxe();
   });
 
   it('Should load and be fully clickable', _tests.checkBlockLink);
-  it(
-    'Should load image on left and content on right',
-    _tests.checkHorizontalLayout
-  );
+  it('Should load image on left and content on right', _tests.checkHorizontalLayout);
   it('Should have customizable heading from knobs', _tests.checkHeadingKnob);
   it('Should have customizable CTA type from knobs', _tests.checkTypeKnob);
+  it('Should check a11y', _tests.checkA11y);
 });
 
 describe('dds-feature-cta | (mobile)', () => {
@@ -187,10 +203,7 @@ describe('dds-feature-cta | (mobile)', () => {
   });
 
   it('Should load and be fully clickable', _tests.checkBlockLink);
-  it(
-    'Should load image on top and content on bottom',
-    _tests.checkVerticalLayout
-  );
+  it('Should load image on top and content on bottom', _tests.checkVerticalLayout);
   it('Should have customizable heading from knobs', _tests.checkHeadingKnob);
   it('Should have customizable CTA type from knobs', _tests.checkTypeKnob);
 });

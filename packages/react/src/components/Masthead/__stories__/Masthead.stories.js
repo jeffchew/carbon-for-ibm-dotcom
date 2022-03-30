@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corp. 2016, 2021
+ * Copyright IBM Corp. 2016, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12,7 +12,7 @@ import Masthead from '../Masthead';
 import mastheadKnobs from './data/Masthead.stories.knobs.js';
 import React from 'react';
 import readme from '../README.stories.mdx';
-import TranslationAPI from '@carbon/ibmdotcom-services/es/services/Translation/Translation';
+import TranslationAPI from '../../../internal/vendor/@carbon/ibmdotcom-services/services/Translation/Translation';
 
 // For mocking in integration tests
 // TODO: See if `TranslationAPI.getTranslation()` call can be avoided when we use mock data
@@ -80,7 +80,7 @@ Default.story = {
           ),
           selectedMenuItem: text(
             'selected menu item (selectedMenuItem)',
-            'Services & Consulting',
+            'Consulting & Services',
             groupId
           ),
         };
@@ -186,7 +186,7 @@ WithPlatform.story = {
           ),
           selectedMenuItem: text(
             'selected menu item (selectedMenuItem)',
-            'Services & Consulting',
+            'Consulting & Services',
             groupId
           ),
         };
@@ -272,7 +272,7 @@ WithAlternateLogoAndTooltip.story = {
           ),
           selectedMenuItem: text(
             'selected menu item (selectedMenuItem)',
-            'Services & Consulting',
+            'Consulting & Services',
             groupId
           ),
           mastheadLogo: select(

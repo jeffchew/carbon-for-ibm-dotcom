@@ -1,10 +1,9 @@
 /**
- * Copyright IBM Corp. 2021
+ * Copyright IBM Corp. 2021, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import getCssPropertyForRule from '../../utils/get-css-property-for-rule';
 
 /**
  * Sets the correct path
@@ -23,6 +22,9 @@ const _path = 'iframe.html?id=components-link-list--vertical';
  * @private
  */
 const _tests = {
+  checkA11y: () => {
+    cy.checkAxeA11y();
+  },
   checkComponentLoad: () => {
     cy.get('.bx--link-list').then(([list]) => {
       const items = list.querySelectorAll('.bx--link-list__list__CTA');
@@ -103,19 +105,19 @@ const _tests = {
 
 describe('LinkList | vertical (desktop)', () => {
   beforeEach(() => {
-    cy.mockKaltura();
     cy.viewport(1280, 780);
     cy.visit(`/${_path}`).wait(1000);
+    cy.injectAxe();
   });
 
   it('should load items with text and link', _tests.checkComponentLoad);
   it('should have a vertical layout', _tests.checkVerticalAlignment);
   it('should render different CTA types', _tests.checkCTATypes);
+  it('should check a11y', _tests.checkA11y);
 });
 
 describe('LinkList | vertical (mobile)', () => {
   beforeEach(() => {
-    cy.mockKaltura();
     cy.viewport(325, 780);
     cy.visit(`/${_path}`).wait(1000);
   });

@@ -1,7 +1,7 @@
 /**
  * @license
  *
- * Copyright IBM Corp. 2019, 2021
+ * Copyright IBM Corp. 2019, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -9,23 +9,26 @@
 
 import ifNonNull from 'carbon-web-components/es/globals/directives/if-non-null.js';
 import { classMap } from 'lit-html/directives/class-map';
-import { html, property, query, customElement, internalProperty } from 'lit-element';
+import { html, property, query, customElement } from 'lit-element';
 import settings from 'carbon-components/es/globals/js/settings';
-import ddsSettings from '@carbon/ibmdotcom-utilities/es/utilities/settings/settings.js';
 import Close20 from 'carbon-web-components/es/icons/close/20.js';
 import Search20 from 'carbon-web-components/es/icons/search/20.js';
 import BXDropdown, { DROPDOWN_KEYBOARD_ACTION } from 'carbon-web-components/es/components/dropdown/dropdown.js';
 import BXDropdownItem from 'carbon-web-components/es/components/dropdown/dropdown-item.js';
 import HostListener from 'carbon-web-components/es/globals/decorators/host-listener';
 import HostListenerMixin from 'carbon-web-components/es/globals/mixins/host-listener';
-import SearchTypeaheadAPI from '@carbon/ibmdotcom-services/es/services/SearchTypeahead/SearchTypeahead';
+import { baseFontSize, breakpoints } from '@carbon/layout';
+import ddsSettings from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/settings/settings';
+import SearchTypeaheadAPI from '../../internal/vendor/@carbon/ibmdotcom-services/services/SearchTypeahead/SearchTypeahead';
 import { forEach, indexOf } from '../../globals/internal/collection-helpers';
+import { DDS_SCOPED_SEARCH } from '../../globals/internal/feature-flags';
 import styles from './search-with-typeahead.scss';
 import StableSelectorMixin from '../../globals/mixins/stable-selector';
 import './search-with-typeahead-item';
 
 const { stablePrefix: ddsPrefix } = ddsSettings;
 const { prefix } = settings;
+const gridBreakpoint = parseFloat(breakpoints.lg.width) * baseFontSize;
 
 /**
  * Search with Typeahead
@@ -46,18 +49,40 @@ const { prefix } = settings;
 class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDropdown)) {
   // eslint-disable-next-line class-methods-use-this
   async getResults(searchQuery) {
-    const response = await SearchTypeaheadAPI.getResults(searchQuery);
-    return response;
+    const response = await SearchTypeaheadAPI.getResults(searchQuery, this.scopeValue);
+    return response.map(res => res[0]);
   }
+
+  /**
+   * The formatter for the placeholder text on the search box.
+   * Should be changed upon the locale the UI is rendered with.
+   */
+  @property({ attribute: false })
+  placeholderFormatter = ({ scopeValue }) => `Search in ${scopeValue}`;
 
   @property({ attribute: 'leadspace-search', type: Boolean })
   leadspaceSearch = false;
 
-  @internalProperty()
+  @property({ attribute: 'custom-typeahead-api', type: Boolean })
+  customTypeaheadAPI = false;
+
+  @property()
+  currentSearchResults;
+
+  @property()
   searchResults;
+
+  @property()
+  groupedResults;
+
+  @property({ attribute: 'scope-parameters' })
+  scopeParameters;
 
   @property({ attribute: 'should-remain-open', type: Boolean })
   shouldRemainOpen = false;
+
+  @property({ attribute: 'scope-value', reflect: true })
+  scopeValue;
 
   /**
    * The `<button>` to open the search box.
@@ -129,7 +154,7 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
       }
     } else {
       const item = (event.target as Element).closest((this.constructor as typeof BXDropdown).selectorItem) as BXDropdownItem;
-      if (this.shadowRoot!.contains(item)) {
+      if (this.shadowRoot!.contains(item) && !item.hasAttribute('groupTitle')) {
         this._handleUserInitiatedSelectItem(item);
       }
     }
@@ -178,6 +203,8 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
     }
     this.active = this.shouldRemainOpen ? true : !this.active;
     this.searchResults = [];
+    this.groupedResults = [];
+
     this.dispatchEvent(
       new CustomEvent(eventToggle, {
         bubbles: true,
@@ -211,8 +238,9 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
    *
    * @param [options] The options.
    * @param [options.targetQuery] The query string the search query page should be of.
+   * @param [options.targetHref] The href string to be redirected to.
    */
-  private _handleUserInitiatedRedirect({ targetQuery }: { targetQuery?: string } = {}) {
+  private _handleUserInitiatedRedirect({ targetQuery, targetHref }: { targetQuery?: string; targetHref?: string } = {}) {
     const { eventBeforeRedirect } = this.constructor as typeof DDSSearchWithTypeahead;
     const { language, redirectUrl } = this;
     const [primary, country] = language.split('-');
@@ -223,7 +251,7 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
     searchParams.append('q', targetQuery ?? this._searchInputNode?.value);
     searchParams.append('lang', primary);
     searchParams.append('cc', country);
-    const redirectUrlWithSearch = `${base}?${searchParams.toString()}`;
+    const redirectUrlWithSearch = targetHref ? `${targetHref}` : `${base}?${searchParams.toString()}`;
     if (
       this.dispatchEvent(
         new CustomEvent(eventBeforeRedirect, {
@@ -252,6 +280,29 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
   }
 
   /**
+   * Handles search results when using a custom API.
+   *
+   * @param event The event.
+   */
+  @HostListener('document:eventCustomResults')
+  protected _handleCustomResults = (event: CustomEvent) => {
+    if (this.customTypeaheadAPI) {
+      [this.searchResults] = event.detail;
+      this.groupedResults = event.detail.slice(1);
+    }
+  };
+
+  /**
+   * Queries scoped search suggestions.
+   *
+   * @param event The event.
+   */
+  @HostListener('document:eventSelectScope')
+  protected _handleScopeSelect = (event: CustomEvent) => {
+    this.scopeValue = event.detail.value;
+  };
+
+  /**
    * Handles `input` event in the search input.
    */
   private _handleInput(event: InputEvent) {
@@ -259,7 +310,7 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
     const { value } = target as HTMLInputElement;
     this.removeAttribute('unfocused');
 
-    const items = this.shadowRoot!.querySelectorAll('dds-search-with-typeahead-item');
+    const items = this.shadowRoot!.querySelectorAll((this.constructor as typeof BXDropdown).selectorItem);
     items.forEach(e => {
       if (e.hasAttribute('highlighted')) {
         this.setAttribute('unfocused', '');
@@ -278,13 +329,26 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
     );
     this.value = value;
 
-    this.getResults(value).then(res => {
-      this.searchResults = res;
-    });
+    if (!this.customTypeaheadAPI) {
+      this.getResults(value).then(res => {
+        this.searchResults = res;
+      });
+    }
 
     if (value) {
       this.open = true;
       if (this.leadspaceSearch) this._closeButtonNode?.classList.remove(`${prefix}--header__search--hide`);
+    }
+
+    // accomodate search results box's width with the scope dropdown
+    if (gridBreakpoint < document.body.clientWidth && this._searchSuggestions && this.scopeParameters) {
+      const scopeBarWidth = (this.shadowRoot?.querySelector('dds-scoped-search-dropdown') as HTMLElement).offsetWidth;
+      (this._searchSuggestions?.parentElement as HTMLElement)?.setAttribute(
+        'style',
+        `left: ${scopeBarWidth}px; width: calc(100% - ${scopeBarWidth}px);`
+      );
+    } else {
+      (this._searchSuggestions?.parentElement as HTMLElement)?.removeAttribute('style');
     }
   }
 
@@ -305,7 +369,10 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
   protected _handleUserInitiatedSelectItem(item?: BXDropdownItem) {
     if (item) {
       this._searchInputNode.value = ((item as unknown) as any).text;
-      this._handleUserInitiatedRedirect({ targetQuery: ((item as unknown) as any).text });
+      this._handleUserInitiatedRedirect({
+        targetQuery: ((item as unknown) as any).text,
+        targetHref: ((item as unknown) as any).href,
+      });
     }
   }
 
@@ -362,6 +429,11 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
     const highlightedItem = this.shadowRoot!.querySelector(constructor.selectorItemHighlighted);
     const highlightedIndex = indexOf(items, highlightedItem!);
     let nextIndex = highlightedIndex + direction;
+
+    if (items[nextIndex] && items[nextIndex].hasAttribute('groupTitle')) {
+      nextIndex += direction;
+    }
+
     if (nextIndex < 0) {
       nextIndex = items.length - 1;
     }
@@ -392,14 +464,14 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
    * @returns The main content of the trigger button.
    */
   protected _renderTriggerContent() {
-    const { placeholder, searchLabel, _handleInput: handleInput, _handleKeyInput: handleKeyInput } = this;
+    const { searchPlaceholder, searchLabel, _handleInput: handleInput, _handleKeyInput: handleKeyInput } = this;
     return html`
       <input
         type="text"
         part="search-input"
         class="${prefix}--header__search--input"
         name="q"
-        placeholder="${placeholder}"
+        placeholder="${searchPlaceholder}"
         autocomplete="off"
         aria-controls="result-list"
         aria-autocomplete="list"
@@ -463,6 +535,25 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
           @keydown="${handleKeydownInner}"
           @keypress="${handleKeypressInner}"
         >
+          ${this.scopeParameters && DDS_SCOPED_SEARCH
+            ? html`
+                <dds-scoped-search-dropdown value="${this.scopeValue}">
+                  ${this.scopeParameters.map(
+                    scope => html`
+                      <bx-dropdown-item value="${scope.value}">${scope.name}</bx-dropdown-item>
+                    `
+                  )}
+                </dds-scoped-search-dropdown>
+
+                <dds-scoped-search-dropdown-mobile value="${this.scopeValue}">
+                  ${this.scopeParameters.map(
+                    scope => html`
+                      <bx-select-item label="${scope.name}" value="${scope.value}">${scope.name}</bx-select-item>
+                    `
+                  )}
+                </dds-scoped-search-dropdown-mobile>
+              `
+            : ``}
           ${this._renderTriggerContent()}
           ${!this.leadspaceSearch
             ? html`
@@ -472,7 +563,23 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
                       this.searchResults.map(
                         item =>
                           html`
-                            <dds-search-with-typeahead-item text="${item[0]}"></dds-search-with-typeahead-item>
+                            <dds-search-with-typeahead-item text="${item}"></dds-search-with-typeahead-item>
+                          `
+                      )}
+                    ${this.groupedResults &&
+                      this.groupedResults.map(
+                        group =>
+                          html`
+                            <dds-search-with-typeahead-item groupTitle text="${group.title}"></dds-search-with-typeahead-item>
+                            ${group.items.map(
+                              item =>
+                                html`
+                                  <dds-search-with-typeahead-item
+                                    text="${item.name}"
+                                    href="${item.href}"
+                                  ></dds-search-with-typeahead-item>
+                                `
+                            )}
                           `
                       )}
                   </ul>
@@ -528,8 +635,8 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
   /**
    * Value to display when the input has an empty `value`.
    */
-  @property({ reflect: true })
-  placeholder = 'Search all of IBM';
+  @property()
+  searchPlaceholder = 'Search all of IBM';
 
   /**
    * The redirect URL when a user selects a search suggestion.
@@ -579,6 +686,43 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
     if (this.leadspaceSearch) {
       this.setAttribute('should-remain-open', '');
       this.setAttribute('active', '');
+    }
+
+    if (!this.scopeValue && this.scopeParameters) {
+      this.scopeValue = 'all';
+    }
+  }
+
+  updated(changedProperties) {
+    if (changedProperties.has('searchResults')) {
+      const titleElements = this.shadowRoot?.querySelectorAll('dds-search-with-typeahead-item[groupTitle]');
+      titleElements?.forEach(e => {
+        e.previousElementSibling?.setAttribute('lastBeforeGroup', '');
+      });
+    }
+
+    if (changedProperties.has('scopeValue')) {
+      if (gridBreakpoint < document.body.clientWidth && this._searchSuggestions && this.scopeParameters) {
+        const scopeBarWidth = (this.shadowRoot?.querySelector('dds-scoped-search-dropdown') as HTMLElement).offsetWidth;
+        (this._searchSuggestions?.parentElement as HTMLElement)?.setAttribute(
+          'style',
+          `left: ${scopeBarWidth}px; width: calc(100% - ${scopeBarWidth}px);`
+        );
+      } else {
+        (this._searchSuggestions?.parentElement as HTMLElement)?.removeAttribute('style');
+      }
+
+      if (!this.customTypeaheadAPI) {
+        this.getResults(this.value).then(res => {
+          this.searchResults = res;
+        });
+      }
+
+      const newPlaceholder = this.placeholderFormatter({
+        scopeValue: this.scopeParameters.filter(e => e.value === `${this.scopeValue}`)[0].name,
+      });
+      this.setAttribute('placeholder', newPlaceholder);
+      this.performSearchButtonAssistiveText = newPlaceholder;
     }
   }
 
@@ -644,10 +788,7 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
                   this.searchResults.map(
                     item =>
                       html`
-                        <dds-search-with-typeahead-item
-                          text="${item[0]}"
-                          @click=${handleClickItem}
-                        ></dds-search-with-typeahead-item>
+                        <dds-search-with-typeahead-item text="${item}" @click=${handleClickItem}></dds-search-with-typeahead-item>
                       `
                   )}
               </ul>
@@ -683,6 +824,20 @@ class DDSSearchWithTypeahead extends HostListenerMixin(StableSelectorMixin(BXDro
    */
   static get eventInput() {
     return `${ddsPrefix}-search-with-typeahead-input`;
+  }
+
+  /**
+   * The name of the custom event captured to retrieve the new search scope.
+   */
+  static get eventSelectScope() {
+    return `${prefix}-select-selected`;
+  }
+
+  /**
+   * The name of the custom event captured to retrieve the custom typeahead API results.
+   */
+  static get eventCustomResults() {
+    return `${ddsPrefix}-custom-typeahead-api-results`;
   }
 
   /**

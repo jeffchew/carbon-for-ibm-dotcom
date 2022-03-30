@@ -3,6 +3,139 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.32.0](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.32.0-rc.1...@carbon/ibmdotcom-styles@1.32.0) (2022-03-28)
+
+**Note:** Version bump only for package @carbon/ibmdotcom-styles
+
+
+
+
+
+# [1.32.0-rc.1](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.32.0-rc.0...@carbon/ibmdotcom-styles@1.32.0-rc.1) (2022-03-17)
+
+
+### Features
+
+* **scrolling-utility:** Add new utility to mimic dotcom-shell functionality ([#8434](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8434)) ([d06b45a](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/d06b45a))
+
+
+
+
+
+# [1.32.0-rc.0](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.31.0...@carbon/ibmdotcom-styles@1.32.0-rc.0) (2022-03-16)
+
+
+### Bug Fixes
+
+* **card-group:** prevent extra top "borders" in Safari ([#8320](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8320)) ([ee94839](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/ee94839))
+* **card-in-card:** implement md breakpoints redesign enhancement ([#8323](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8323)) ([45e2ebb](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/45e2ebb))
+* **deps:** update dependency @carbon/grid to v10.42.0 ([#8403](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8403)) ([9265c5a](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/9265c5a))
+* **deps:** update dependency @carbon/import-once to v10.7.0 ([#8404](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8404)) ([75bef92](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/75bef92))
+* **deps:** update dependency @carbon/layout to v10.37.0 ([#8405](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8405)) ([a1b5292](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/a1b5292))
+* **deps:** update dependency @carbon/motion to v10.29.0 ([#8406](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8406)) ([ab10fa8](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/ab10fa8))
+* **deps:** update dependency @carbon/themes to v10.52.0 ([#8407](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8407)) ([a710831](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/a710831))
+* **deps:** update dependency carbon-components to v10.54.0 ([#8408](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8408)) ([588981c](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/588981c))
+* **link-with-icon:** fix disabled styles ([#8369](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8369)) ([4e4b155](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/4e4b155)), closes [#8368](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8368)
+* **styles:** add visited styles to link with icon ([#8367](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8367)) ([f1502ae](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/f1502ae)), closes [#8332](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8332)
+* **table-of-contents:** Let VO interact with the destination content ([#8253](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8253)) ([c8f4c56](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/c8f4c56))
+* **tabs-extended:** change anchor-based tabs to button-based tabs ([#8365](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8365)) ([2225471](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/2225471)), closes [#8357](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8357)
+
+
+### Features
+
+* **universal-banner:** introducing component ([#8237](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8237)) ([58d7bb1](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/58d7bb1)), closes [#6814](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/6814)
+
+
+
+
+
+# [1.31.0](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.31.0-rc.3...@carbon/ibmdotcom-styles@1.31.0) (2022-02-28)
+
+**Note:** Version bump only for package @carbon/ibmdotcom-styles
+
+
+
+
+
+# [1.31.0-rc.3](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.31.0-rc.2...@carbon/ibmdotcom-styles@1.31.0-rc.3) (2022-02-25)
+
+**Note:** Version bump only for package @carbon/ibmdotcom-styles
+
+
+
+
+
+# [1.31.0-rc.2](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.31.0-rc.1...@carbon/ibmdotcom-styles@1.31.0-rc.2) (2022-02-24)
+
+**Note:** Version bump only for package @carbon/ibmdotcom-styles
+
+
+
+
+
+# [1.31.0-rc.1](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.31.0-rc.0...@carbon/ibmdotcom-styles@1.31.0-rc.1) (2022-02-14)
+
+
+### Bug Fixes
+
+* **card-pictogram:** safari motion fix ([#8183](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8183)) ([2738ae8](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/2738ae8)), closes [#8102](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8102)
+* **content-block-horizontal:** update bottom section spacing ([#8187](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8187)) ([3a02f57](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/3a02f57)), closes [#7745](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/7745)
+* **content-section:** update child elements alignment to the top ([#8182](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8182)) ([4358e2d](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/4358e2d)), closes [#7804](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/7804)
+* **deps:** fix to marked dependency issues ([#8172](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8172)) ([c1bb7f5](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/c1bb7f5))
+* **deps:** update dependency @carbon/themes to v10.50.0 ([#8208](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8208)) ([f421cd0](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/f421cd0))
+* **deps:** update dependency carbon-components to v10.52.0 ([#8209](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8209)) ([3ec4a16](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/3ec4a16))
+* **leadspace-with-search:** refactor for correct styles to be added ([#8152](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8152)) ([5e84f6f](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/5e84f6f)), closes [#7781](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/7781)
+* **link-with-icon:** adjust left icon placement style & clean up ([#8238](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8238)) ([0a0c5ea](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/0a0c5ea))
+* **toc:** fix LeadSpace with Search results z-index issue that's covering Horizontal TOC ([#8194](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8194)) ([a58e288](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/a58e288))
+
+
+### Features
+
+* **search-with-typeahead:** add scoped search support ([#8096](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8096)) ([8a26e56](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/8a26e56)), closes [#7627](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/7627)
+
+
+
+
+
+# [1.31.0-rc.0](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.30.0...@carbon/ibmdotcom-styles@1.31.0-rc.0) (2022-02-01)
+
+
+### Bug Fixes
+
+* **content-item-horizontal-thumbnail:** adjust mobile spacing ([#8067](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8067)) ([dc2a715](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/dc2a715))
+* **deps:** update dependency @carbon/grid to v10.40.0 ([#8119](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8119)) ([0026aa4](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/0026aa4))
+* **deps:** update dependency @carbon/layout to v10.35.0 ([#8120](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8120)) ([f0f8b05](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/f0f8b05))
+* **deps:** update dependency @carbon/motion to v10.27.0 ([#8122](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8122)) ([59e14dc](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/59e14dc))
+* **deps:** update dependency @carbon/themes to v10.49.0 ([#8123](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8123)) ([84b9672](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/84b9672))
+* **deps:** update dependency carbon-components to v10.51.0 ([#8125](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8125)) ([594594d](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/594594d))
+* **masthead:** add padding top to masthead-composite & cloud-masthead-container ([#8068](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8068)) ([ef58349](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/ef58349))
+* **styles:** missing text color for content block and section ([#8079](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8079)) ([496fa16](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/496fa16)), closes [#7798](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/7798)
+
+
+### Features
+
+* **masthead:** add grouped search support ([#8004](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/8004)) ([7235567](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/commit/7235567)), closes [#7822](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/7822)
+
+
+
+
+
+# [1.30.0](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.30.0-rc.1...@carbon/ibmdotcom-styles@1.30.0) (2022-01-31)
+
+**Note:** Version bump only for package @carbon/ibmdotcom-styles
+
+
+
+
+
+# [1.30.0-rc.1](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.30.0-rc.0...@carbon/ibmdotcom-styles@1.30.0-rc.1) (2022-01-24)
+
+**Note:** Version bump only for package @carbon/ibmdotcom-styles
+
+
+
+
+
 # [1.30.0-rc.0](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/compare/@carbon/ibmdotcom-styles@1.29.1...@carbon/ibmdotcom-styles@1.30.0-rc.0) (2022-01-18)
 
 

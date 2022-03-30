@@ -1,7 +1,7 @@
 /**
  * @license
  *
- * Copyright IBM Corp. 2020, 2021
+ * Copyright IBM Corp. 2020, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -47,27 +47,34 @@ class DDSCardCTA extends VideoCTAMixin(CTAMixin(DDSCard)) {
       return super._renderHeading();
     }
     const caption = formatVideoCaptionInEffect({ name: videoName });
+
+    this.dispatchEvent(
+      new CustomEvent((this.constructor as typeof DDSCardCTA).eventVideoTitleUpdated, {
+        bubbles: true,
+        composed: true,
+      })
+    );
     return html`
       <slot name="heading"></slot><dds-card-heading>${caption}</dds-card-heading>
     `;
   }
 
   protected _renderImage() {
-    const { ctaType, videoName, videoThumbnailUrl, _hasImage: hasImage, noPoster } = this;
-    const thumbnail =
+    const { ctaType, videoName, videoThumbnailUrl, thumbnail, _hasImage: hasImage, noPoster } = this;
+    const image =
       hasImage || ctaType !== CTA_TYPE.VIDEO || noPoster
         ? undefined
         : html`
             <dds-card-cta-image
               class="${prefix}--card__video-thumbnail"
               alt="${ifNonNull(videoName)}"
-              default-src="${ifNonNull(videoThumbnailUrl)}"
+              default-src="${ifNonNull(thumbnail || videoThumbnailUrl)}"
             >
               ${PlayVideo({ slot: 'icon' })}
             </dds-card-cta-image>
           `;
     return html`
-      <slot name="image" @slotchange="${this._handleSlotChange}"></slot>${thumbnail}
+      <slot name="image" @slotchange="${this._handleSlotChange}"></slot>${image}
     `;
   }
 
@@ -116,6 +123,12 @@ class DDSCardCTA extends VideoCTAMixin(CTAMixin(DDSCard)) {
   videoThumbnailUrl?: string;
 
   /**
+   * Optional custom video thumbnail
+   */
+  @property({ reflect: true, attribute: 'thumbnail' })
+  thumbnail?: '';
+
+  /**
    * Set `true` if Poster Video Image should not be shown.
    */
   @property({ type: Boolean, reflect: true, attribute: 'no-poster' })
@@ -143,11 +156,11 @@ class DDSCardCTA extends VideoCTAMixin(CTAMixin(DDSCard)) {
       const copyText = this.textContent;
       if (footer) {
         const ariaTitle = videoName || headingText || copyText;
-        let ariaDuration = 'DURATION';
+        let ariaDuration = '';
         if (videoDuration !== undefined) {
-          ariaDuration = KalturaPlayerAPI.getMediaDurationFormatted(videoDuration, false);
+          ariaDuration = `, DURATION ${KalturaPlayerAPI.getMediaDurationFormatted(videoDuration, false)}`;
         }
-        (footer as DDSCardCTAFooter).altAriaLabel = `${ariaTitle}, ${ariaDuration}`;
+        (footer as DDSCardCTAFooter).altAriaLabel = `${ariaTitle}${ariaDuration}`;
         (footer as DDSCardCTAFooter).ctaType = ctaType;
         (footer as DDSCardCTAFooter).videoDuration = videoDuration;
         (footer as DDSCardCTAFooter).videoName = videoName;
@@ -164,6 +177,13 @@ class DDSCardCTA extends VideoCTAMixin(CTAMixin(DDSCard)) {
 
   static get stableSelector() {
     return `${ddsPrefix}--card-cta`;
+  }
+
+  /**
+   * The name of the custom event fired when the video title is updated
+   */
+  static get eventVideoTitleUpdated() {
+    return `${ddsPrefix}-card-cta-video-title-updated`;
   }
 
   /**

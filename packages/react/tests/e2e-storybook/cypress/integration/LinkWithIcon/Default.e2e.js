@@ -1,5 +1,5 @@
 /**
- * Copyright IBM Corp. 2021
+ * Copyright IBM Corp. 2021, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -31,6 +31,13 @@ const _selector = '[data-autoid="dds--link-with-icon"]';
  */
 const _tests = [
   () => {
+    it('should check a11y', () => {
+      cy.visit(_path);
+      cy.injectAxe();
+      cy.checkAxeA11y();
+    });
+  },
+  () => {
     it('should render link text', () => {
       cy.visit(_path)
         .get(_selector)
@@ -52,7 +59,9 @@ const _tests = [
       cy.visit(`${_path}&knob-Disabled%20(disabled):_LinkWithIcon=true`)
         .get(_selector)
         .find('a')
-        .should('have.length', 0);
+        .should($link => {
+          expect($link.prop('href')).to.be.empty;
+        });
     });
   },
   () => {

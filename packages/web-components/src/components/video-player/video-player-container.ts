@@ -1,7 +1,7 @@
 /**
  * @license
  *
- * Copyright IBM Corp. 2020, 2021
+ * Copyright IBM Corp. 2020, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10,8 +10,8 @@
 import { ActionCreatorsMapObject, Dispatch, Store, bindActionCreators } from 'redux';
 import { customElement } from 'lit-element';
 import settings from 'carbon-components/es/globals/js/settings';
-import ddsSettings from '@carbon/ibmdotcom-utilities/es/utilities/settings/settings.js';
 import KalturaPlayerAPI from '@carbon/ibmdotcom-services/es/services/KalturaPlayer/KalturaPlayer.js';
+import ddsSettings from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/settings/settings';
 import store from '../../internal/vendor/@carbon/ibmdotcom-services-store/store';
 import { MediaData, MediaPlayerAPIState } from '../../internal/vendor/@carbon/ibmdotcom-services-store/types/kalturaPlayerAPI.d';
 import { loadMediaData } from '../../internal/vendor/@carbon/ibmdotcom-services-store/actions/kalturaPlayerAPI';
@@ -201,6 +201,10 @@ export const DDSVideoPlayerContainerMixin = <T extends Constructor<HTMLElement>>
       }
       const embedVideoHandle = await KalturaPlayerAPI.embedMedia(videoId, playerId, additionalPlayerOptions);
       doc!.getElementById(playerId)!.dataset.videoId = videoId;
+      const videoEmbed = doc!.getElementById(playerId)?.firstElementChild;
+      if (videoEmbed) {
+        (videoEmbed as HTMLElement).focus();
+      }
       return embedVideoHandle.kWidget();
     }
 

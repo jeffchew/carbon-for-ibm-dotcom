@@ -7,10 +7,10 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { customElement, html, internalProperty, LitElement, property } from 'lit-element';
+import { customElement, html, state, LitElement, property } from 'lit-element';
 import settings from 'carbon-components/es/globals/js/settings';
-import ddsSettings from '@carbon/ibmdotcom-utilities/es/utilities/settings/settings.js';
-import sameHeight from '@carbon/ibmdotcom-utilities/es/utilities/sameHeight/sameHeight.js';
+import ddsSettings from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/settings/settings';
+import sameHeight from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/sameHeight/sameHeight';
 import StableSelectorMixin from '../../globals/mixins/stable-selector';
 
 import styles from './cta-block.scss';
@@ -88,13 +88,13 @@ class DDSCTABlockItemRow extends StableSelectorMixin(LitElement) {
   /**
    * `true` if there are CTA action in the content item area.
    */
-  @internalProperty()
+  @state()
   protected _hasAction = false;
 
   /**
    * `true` if there is a link list.
    */
-  @internalProperty()
+  @state()
   protected _hasLinkList = false;
 
   /**
@@ -133,9 +133,6 @@ class DDSCTABlockItemRow extends StableSelectorMixin(LitElement) {
    * Applies section attribute
    */
   connectedCallback() {
-    if (!this.hasAttribute('role')) {
-      this.setAttribute('role', 'section');
-    }
     super.connectedCallback();
     this._cleanAndCreateObserverResize({ create: true });
   }

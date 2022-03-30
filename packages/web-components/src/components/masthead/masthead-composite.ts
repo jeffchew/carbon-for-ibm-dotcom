@@ -11,11 +11,11 @@ import { html, property, customElement, LitElement } from 'lit-element';
 import { nothing } from 'lit-html';
 import ArrowRight16 from 'carbon-web-components/es/icons/arrow--right/16.js';
 import ifNonNull from 'carbon-web-components/es/globals/directives/if-non-null.js';
-import ddsSettings from '@carbon/ibmdotcom-utilities/es/utilities/settings/settings.js';
-import { globalInit } from '@carbon/ibmdotcom-services/es/services/global/global';
 import { unsafeSVG } from 'lit-html/directives/unsafe-svg';
-import MastheadLogoAPI from '@carbon/ibmdotcom-services/es/services/MastheadLogo/MastheadLogo';
 import root from 'window-or-global';
+import ddsSettings from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/settings/settings';
+import { globalInit } from '../../internal/vendor/@carbon/ibmdotcom-services/services/global/global';
+import MastheadLogoAPI from '../../internal/vendor/@carbon/ibmdotcom-services/services/MastheadLogo/MastheadLogo';
 import {
   MastheadL1,
   MastheadLink,
@@ -623,8 +623,8 @@ class DDSMastheadComposite extends LitElement {
   /**
    * `true` if there is a profile.
    */
-  @property({ type: Boolean, attribute: 'has-profile' })
-  hasProfile = true;
+  @property({ type: String, reflect: true, attribute: 'has-profile' })
+  hasProfile = 'true';
 
   /**
    * `true` if there is a search.
@@ -683,6 +683,12 @@ class DDSMastheadComposite extends LitElement {
   customProfileLogin?: string;
 
   /**
+   * The boolean to use a custom search API.
+   */
+  @property({ attribute: 'custom-typeahead-api', type: Boolean })
+  customTypeaheadAPI = false;
+
+  /**
    * The `aria-label` attribute for the top-level container.
    */
   @property({ attribute: 'masthead-assistive-text' })
@@ -705,6 +711,12 @@ class DDSMastheadComposite extends LitElement {
    */
   @property({ attribute: 'menu-button-assistive-text-inactive' })
   menuButtonAssistiveTextInactive!: string;
+
+  /**
+   * The parameters passed to the search-with-typeahead for search scope
+   */
+  @property()
+  scopeParameters;
 
   /**
    * The English title of the selected nav item.
@@ -788,7 +800,6 @@ class DDSMastheadComposite extends LitElement {
 
     // This is a temp fix until we figure out why we can't set styles to the :host(dds-masthead-container) in stylesheets
     this.style.zIndex = '900';
-    this.style.paddingTop = '48px';
   }
 
   updated(changedProperties) {
@@ -811,6 +822,7 @@ class DDSMastheadComposite extends LitElement {
       activateSearch,
       authenticatedProfileItems,
       currentSearchResults,
+      customTypeaheadAPI,
       customProfileLogin,
       platform,
       platformUrl,
@@ -824,6 +836,7 @@ class DDSMastheadComposite extends LitElement {
       language,
       openSearchDropdown,
       hasSearch,
+      scopeParameters,
       searchPlaceholder,
       selectedMenuItem,
       unauthenticatedProfileItems,
@@ -903,11 +916,13 @@ class DDSMastheadComposite extends LitElement {
                 ?searchOpenOnload="${activateSearch}"
                 placeholder="${ifNonNull(searchPlaceholder)}"
                 .currentSearchResults="${ifNonNull(currentSearchResults)}"
+                ?custom-typeahead-api="${ifNonNull(customTypeaheadAPI)}"
+                .scopeParameters="${ifNonNull(scopeParameters)}"
               ></dds-search-with-typeahead>
             `}
         <dds-masthead-global-bar ?has-search-active=${activateSearch}>
-          ${!hasProfile
-            ? undefined
+          ${hasProfile === 'false'
+            ? ''
             : html`
                 <dds-masthead-profile ?authenticated="${authenticated}">
                   ${profileItems?.map(

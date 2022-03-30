@@ -1,36 +1,11 @@
 /**
- * Copyright IBM Corp. 2021
+ * Copyright IBM Corp. 2021, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
 import 'cypress-wait-until';
-
-/**
- * Mocks the Masthead/Footer data
- */
-Cypress.Commands.add('mockMastheadFooterData', () => {
-  cy.intercept('https://1.www.s81c.com/common/js/dynamicnav/www/countrylist/jsononly/usen-utf8.json', {
-    fixture: 'countrylist.json',
-  });
-  cy.intercept('https://1.www.s81c.com/common/carbon-for-ibm-dotcom/translations/masthead-footer/usen.json', {
-    fixture: 'translation.json',
-  });
-  cy.intercept('https://login.ibm.com/v1/mgmt/idaas/user/status/', { fixture: 'status.json' });
-  cy.intercept('https://www-api.ibm.com/search/typeahead/v1?*', {
-    fixture: 'typeahead.json',
-  });
-});
-
-/**
- * Mocks the Kaltura API
- */
-Cypress.Commands.add('mockKaltura', () => {
-  cy.intercept('https://cdnapisec.kaltura.com/api_v3/index.php?*', {
-    fixture: 'kaltura.json',
-  });
-});
 
 /**
  * Takes Cypress and Percy snapshots
@@ -66,4 +41,50 @@ Cypress.Commands.add('carbonThemesScreenshot', (screenshotOpts = {}, percyOption
         percyOptions
       );
   });
+});
+
+/**
+ * Check a11y
+ *
+ * @param {string} context optional to specify component context (ex. 'dds-content-item)
+ * @param {Array} additionalRules optional to remove unnecessary rules by there id to pass a11y test (ex. ['list', 'region'])
+ */
+Cypress.Commands.add('checkAxeA11y', (context, additionalRules) => {
+  function terminalLog(violations) {
+    cy.task(
+      'log',
+      `${violations.length} accessibility violation${violations.length === 1 ? '' : 's'} ${
+        violations.length === 1 ? 'was' : 'were'
+      } detected`
+    );
+    // pluck specific keys to keep the table readable
+    const violationData = violations.map(({ id, impact, description, nodes }) => ({
+      id,
+      impact,
+      description,
+      nodes: `${nodes.length}: ${nodes.map(({ target }) => target).toString()}`,
+    }));
+
+    cy.task('table', violationData);
+  }
+
+  // skipping page a11y issues because we are only interested at the component level
+  let rules = {
+    region: { enabled: false },
+    'page-has-heading-one': { enabled: false },
+    'landmark-one-main': { enabled: false },
+  };
+
+  if (additionalRules) {
+    additionalRules.forEach(rule => (rules[rule] = { enabled: false }));
+  }
+
+  cy.checkA11y(
+    context || null,
+    {
+      rules: rules,
+      includedImpacts: ['critical, serious'],
+    },
+    terminalLog
+  );
 });

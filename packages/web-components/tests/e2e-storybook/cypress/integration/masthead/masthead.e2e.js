@@ -13,35 +13,17 @@
  */
 const _pathDefault = '/iframe.html?id=components-masthead--default';
 
-/**
- * Sets the correct path (Masthead with Platform)
- *
- * @type {string}
- * @private
- */
-const _pathPlatform = '/iframe.html?id=components-masthead--with-platform';
-
-/**
- * Sets the correct path (Masthead with L1)
- *
- * @type {string}
- * @private
- */
-const _pathl1 = '/iframe.html?id=components-masthead--with-l-1';
-
-/**
- * Sets the correct path (Masthead search open onload)
- *
- * @type {string}
- * @private
- */
-const _pathSearchOpenOnload = '/iframe.html?id=components-masthead--search-open-onload';
-
 describe('dds-masthead | default (desktop)', () => {
   beforeEach(() => {
-    cy.mockMastheadFooterData();
     cy.visit(`/${_pathDefault}`);
+    cy.injectAxe();
     cy.viewport(1280, 780);
+
+    cy.waitUntil(() => cy.get('[data-autoid="dds--masthead-default__l0-nav0"]').should('not.be.empty'));
+  });
+
+  it('should check a11y', () => {
+    cy.checkAxeA11y();
   });
 
   it('should have url for IBM logo', () => {
@@ -165,9 +147,15 @@ describe('dds-masthead | default (desktop)', () => {
 
 describe('dds-masthead | default (mobile)', () => {
   beforeEach(() => {
-    cy.mockMastheadFooterData();
     cy.visit(`/${_pathDefault}`);
+    cy.injectAxe();
     cy.viewport(320, 780);
+
+    cy.waitUntil(() => cy.get('[data-autoid="dds--masthead-default__l0-nav0"]').should('not.be.empty'));
+  });
+
+  it('should check a11y', () => {
+    cy.checkAxeA11y();
   });
 
   it('should load the mobile menu', () => {
@@ -191,172 +179,5 @@ describe('dds-masthead | default (mobile)', () => {
       .click();
 
     cy.takeSnapshots('mobile');
-  });
-});
-
-describe('dds-masthead | with platform (desktop)', () => {
-  beforeEach(() => {
-    cy.mockMastheadFooterData();
-    cy.visit(`/${_pathPlatform}`);
-    cy.viewport(1280, 780);
-  });
-
-  it('should load platform containing a link', () => {
-    cy.get('dds-masthead > dds-top-nav-name')
-      .shadow()
-      .find('a')
-      .then($link => {
-        const url = $link.prop('href');
-        expect(url).not.to.be.empty;
-      });
-  });
-
-  it('should render platform next to IBM logo', () => {
-    cy.get('dds-masthead > dds-top-nav-name').then($platform => {
-      cy.get('dds-masthead > dds-masthead-logo').then($logo => {
-        expect($logo[0].getBoundingClientRect().right).to.equal($platform[0].getBoundingClientRect().left);
-      });
-    });
-  });
-
-  it('should open the search bar with platform', () => {
-    cy.get('dds-masthead > dds-search-with-typeahead')
-      .shadow()
-      .find('.bx--header__search--search')
-      .click();
-
-    cy.takeSnapshots();
-  });
-});
-
-describe('dds-masthead | with L1 (desktop)', () => {
-  beforeEach(() => {
-    cy.mockMastheadFooterData();
-    cy.visit(`/${_pathl1}`);
-    cy.viewport(1280, 780);
-  });
-
-  it('should render platform below the IBM logo', () => {
-    cy.get('dds-masthead-l1-name').then($platform => {
-      cy.get('dds-masthead-logo').then($logo => {
-        expect($logo[0].getBoundingClientRect().down).to.equal($platform[0].getBoundingClientRect().up);
-      });
-    });
-  });
-
-  it('should render and have url for L1 platform', () => {
-    cy.get('dds-masthead-l1-name')
-      .shadow()
-      .find('a')
-      .then($link => {
-        const url = $link.prop('href');
-        expect(url).not.to.be.empty;
-      });
-
-    cy.takeSnapshots();
-  });
-
-  it('should load l1 menu item with selected state', () => {
-    cy.get('dds-top-nav-l1 > *:nth-child(1)').then($menuItem => {
-      expect($menuItem).to.have.attr('active');
-    });
-
-    cy.takeSnapshots();
-  });
-
-  it('should render 5 menu items', () => {
-    cy.get('dds-top-nav-l1 > * ').should('have.length', 5);
-  });
-
-  it('should load the l1 - first nav item', () => {
-    cy.get('dds-top-nav-l1 > *:nth-child(1)')
-      .shadow()
-      .find('a')
-      .then($link => {
-        const url = $link.prop('href');
-        expect(url).not.to.be.empty;
-      });
-  });
-
-  it('should load the l1 - second nav item', () => {
-    cy.get('dds-top-nav-l1 > *:nth-child(2)')
-      .shadow()
-      .find('a')
-      .then($link => {
-        const url = $link.prop('href');
-        expect(url).not.to.be.empty;
-      });
-  });
-
-  it('should load and have url for third l1 item', () => {
-    cy.get('dds-top-nav-l1 > *:nth-child(3)')
-      .shadow()
-      .find('a')
-      .then($link => {
-        const url = $link.prop('href');
-        expect(url).not.to.be.empty;
-      });
-  });
-
-  it('should load the l1 - fourth nav item', () => {
-    cy.get('dds-top-nav-l1 > *:nth-child(4)')
-      .click()
-      .then($menuItem => {
-        expect($menuItem).to.have.attr('expanded');
-      });
-  });
-
-  it('should load and have url for fifth l1 item', () => {
-    cy.get('dds-top-nav-l1 > *:nth-child(5)')
-      .click()
-      .then($menuItem => {
-        expect($menuItem).to.have.attr('expanded');
-      });
-  });
-});
-
-describe('dds-masthead | search open onload (desktop)', () => {
-  beforeEach(() => {
-    // TODO: fix the uncaught exception in Firefox only
-    cy.on('uncaught:exception', (err, runnable) => {
-      if (err.message.includes('Request aborted')) {
-        return false;
-      }
-    });
-
-    cy.visit(`/${_pathSearchOpenOnload}`);
-    cy.viewport(1280, 780);
-  });
-
-  it('should load search field open by default', () => {
-    cy.get('dds-search-with-typeahead')
-      .shadow()
-      .find('input[type="text"]')
-      .should('be.visible');
-
-    cy.takeSnapshots();
-  });
-
-  it('should have typable search field', () => {
-    cy.get('dds-search-with-typeahead')
-      .shadow()
-      .find('input[type="text"]')
-      .type('test')
-      .should('have.value', 'test');
-  });
-
-  it('should display 10 auto suggest results', () => {
-    cy.get('dds-search-with-typeahead')
-      .shadow()
-      .find('input[type="text"]')
-      .type('test')
-      .get('dds-search-with-typeahead-item')
-      .should('have.length', 10);
-
-    cy.takeSnapshots();
-  });
-
-  it('should not display menu options while search field is open', () => {
-    cy.get('dds-top-nav').should('have.attr', 'hidenav');
   });
 });

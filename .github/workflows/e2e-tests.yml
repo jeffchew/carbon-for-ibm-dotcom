@@ -16,8 +16,9 @@ jobs:
       matrix:
         os: [ ubuntu-latest ]
         node-version: [ 14.x ]
-        browser: [ chromium, firefox ]
+        browser: [ chromium ]
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
@@ -29,6 +30,12 @@ jobs:
         run: yarn install --offline
       - name: Build project
         run: yarn lerna run --stream --ignore @carbon/ibmdotcom-react build
+      - name: Set Cloud Masthead env var
+        uses: ./.github/actions/set-dotenv
+        with:
+          env-file: packages/web-components/.env
+        env:
+          DDS_CLOUD_MASTHEAD: true
       - name: Build storybook
         working-directory: packages/web-components
         run: yarn build-storybook
@@ -47,6 +54,7 @@ jobs:
         node-version: [ 14.x ]
         browser: [ chromium, firefox ]
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js

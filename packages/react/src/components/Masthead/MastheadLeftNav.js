@@ -1,12 +1,12 @@
 /**
- * Copyright IBM Corp. 2016, 2021
+ * Copyright IBM Corp. 2016, 2022
  *
  * This source code is licensed under the Apache-2.0 license found in the
  * LICENSE file in the root directory of this source tree.
  */
 import React, { useEffect, useRef, useState } from 'react';
 import cx from 'classnames';
-import ddsSettings from '@carbon/ibmdotcom-utilities/es/utilities/settings/settings';
+import ddsSettings from '../../internal/vendor/@carbon/ibmdotcom-utilities/utilities/settings/settings';
 import HeaderSideNavItems from '../../internal/vendor/carbon-components-react/components/UIShell/HeaderSideNavItems';
 import PropTypes from 'prop-types';
 import root from 'window-or-global';
@@ -124,14 +124,18 @@ const MastheadLeftNav = ({
         rest.hasL1Data ? 'l1' : 'l0'
       }-nav${i}`;
 
-      const menuItems = link.menuSections[0]?.menuItems;
+      const menuItems = link.menuSections?.[0]?.menuItems;
       selectedItems = selectedUrlCheck({
         menu: menuItems,
         key: i,
         parentItemUrl: link.url,
       });
 
-      if (link.hasMenu || link.hasMegaPanel || link.menuSections.length !== 0) {
+      if (
+        link.hasMenu ||
+        link.hasMegaPanel ||
+        link.menuSections?.length !== 0
+      ) {
         level1Items.push({
           title: link.title,
           autoid,
@@ -269,7 +273,7 @@ function _renderLevel1Submenus(
     let highlightedItems = [];
     const items = [];
 
-    menu.sections[0].menuItems.forEach(item => {
+    menu.sections?.[0].menuItems.forEach(item => {
       if (item.highlighted) return highlightedItems.push(item);
       return items.push(item);
     });
@@ -286,7 +290,7 @@ function _renderLevel1Submenus(
             menuState.level0 === menu.parentKey && menuState.level1 >= 0,
         })}
         id={`panel__(${menu.parentKey},-1)`}
-        heading={menu.sections[0]?.heading}
+        heading={menu.sections?.[0]?.heading}
         key={menu.title}
         title={menu.title}
         navType={navType}
