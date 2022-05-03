@@ -21,7 +21,7 @@ exports[`Storyshots Components|Back to top Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -68,11 +68,6 @@ exports[`Storyshots Components|Back to top Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -100,7 +95,7 @@ exports[`Storyshots Components|Button group Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -343,11 +338,6 @@ exports[`Storyshots Components|Button group Default 1`] = `
       </ButtonGroup>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -375,7 +365,7 @@ exports[`Storyshots Components|CTA Button 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -805,11 +795,6 @@ exports[`Storyshots Components|CTA Button 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -837,7 +822,7 @@ exports[`Storyshots Components|CTA Card 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -1118,11 +1103,6 @@ exports[`Storyshots Components|CTA Card 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -1150,7 +1130,7 @@ exports[`Storyshots Components|CTA Feature 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -1453,11 +1433,6 @@ exports[`Storyshots Components|CTA Feature 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -1485,7 +1460,7 @@ exports[`Storyshots Components|CTA Text 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -1661,11 +1636,6 @@ exports[`Storyshots Components|CTA Text 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -1693,7 +1663,7 @@ exports[`Storyshots Components|CTA section Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -2136,11 +2106,6 @@ exports[`Storyshots Components|CTA section Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -2168,7 +2133,7 @@ exports[`Storyshots Components|CTA section With content items 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -2886,11 +2851,6 @@ exports[`Storyshots Components|CTA section With content items 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -2918,7 +2878,7 @@ exports[`Storyshots Components|Callout quote Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -3140,11 +3100,6 @@ exports[`Storyshots Components|Callout quote Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -3172,7 +3127,7 @@ exports[`Storyshots Components|Callout with media Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -3468,11 +3423,6 @@ exports[`Storyshots Components|Callout with media Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -3500,7 +3450,7 @@ exports[`Storyshots Components|Card Card static 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -3601,11 +3551,6 @@ exports[`Storyshots Components|Card Card static 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -3633,7 +3578,7 @@ exports[`Storyshots Components|Card Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -3815,11 +3760,6 @@ exports[`Storyshots Components|Card Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -3847,7 +3787,7 @@ exports[`Storyshots Components|Card group Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -5123,11 +5063,6 @@ exports[`Storyshots Components|Card group Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -5155,7 +5090,7 @@ exports[`Storyshots Components|Card group With CTA 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -6549,11 +6484,6 @@ exports[`Storyshots Components|Card group With CTA 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -6581,7 +6511,7 @@ exports[`Storyshots Components|Card group With images 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -8087,11 +8017,6 @@ exports[`Storyshots Components|Card group With images 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -8119,7 +8044,7 @@ exports[`Storyshots Components|Card group With images and CTA 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -9745,11 +9670,6 @@ exports[`Storyshots Components|Card group With images and CTA 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -9774,7 +9694,7 @@ exports[`Storyshots Components|Card in card Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -9821,11 +9741,6 @@ exports[`Storyshots Components|Card in card Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -9853,7 +9768,7 @@ exports[`Storyshots Components|Card link Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -10032,11 +9947,6 @@ exports[`Storyshots Components|Card link Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -10061,7 +9971,7 @@ exports[`Storyshots Components|Card section carousel Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -10108,11 +10018,6 @@ exports[`Storyshots Components|Card section carousel Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -10140,7 +10045,7 @@ exports[`Storyshots Components|Card section images Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -11740,11 +11645,6 @@ exports[`Storyshots Components|Card section images Default 1`] = `
       </ContentSection>
     </CardSectionImages>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -11769,7 +11669,7 @@ exports[`Storyshots Components|Card section offset Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -11816,11 +11716,6 @@ exports[`Storyshots Components|Card section offset Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -11848,7 +11743,7 @@ exports[`Storyshots Components|Card section simple Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -13158,11 +13053,6 @@ exports[`Storyshots Components|Card section simple Default 1`] = `
       </ContentSection>
     </CardSectionSimple>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -13190,7 +13080,7 @@ exports[`Storyshots Components|Card section simple With CTA 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -14640,11 +14530,6 @@ exports[`Storyshots Components|Card section simple With CTA 1`] = `
       </ContentSection>
     </CardSectionSimple>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -14669,7 +14554,7 @@ exports[`Storyshots Components|Carousel Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -14716,11 +14601,6 @@ exports[`Storyshots Components|Carousel Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -14748,7 +14628,7 @@ exports[`Storyshots Components|Content block Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -15037,11 +14917,6 @@ exports[`Storyshots Components|Content block Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -15069,7 +14944,7 @@ exports[`Storyshots Components|Content block cards Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -16657,11 +16532,6 @@ exports[`Storyshots Components|Content block cards Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -16689,7 +16559,7 @@ exports[`Storyshots Components|Content block cards With images 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -18519,11 +18389,6 @@ exports[`Storyshots Components|Content block cards With images 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -18551,7 +18416,7 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -20344,11 +20209,6 @@ exports[`Storyshots Components|Content block cards With videos 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -20376,7 +20236,7 @@ exports[`Storyshots Components|Content block horizontal Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -21497,11 +21357,6 @@ exports[`Storyshots Components|Content block horizontal Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -21529,7 +21384,7 @@ exports[`Storyshots Components|Content block media Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -23188,11 +23043,6 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -23220,7 +23070,7 @@ exports[`Storyshots Components|Content block media With link list 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -25400,11 +25250,6 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -25432,7 +25277,7 @@ exports[`Storyshots Components|Content block mixed Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -27619,11 +27464,6 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -27651,7 +27491,7 @@ exports[`Storyshots Components|Content block mixed With link list 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -30361,11 +30201,6 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -30393,7 +30228,7 @@ exports[`Storyshots Components|Content block segmented Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -30899,6 +30734,7 @@ exports[`Storyshots Components|Content block segmented Default 1`] = `
                                 <div
                                   aria-label=" (1:00)"
                                   className="bx--video-player"
+                                  role="region"
                                 >
                                   <div
                                     className="bx--video-player__video-container "
@@ -31250,11 +31086,6 @@ exports[`Storyshots Components|Content block segmented Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -31282,7 +31113,7 @@ exports[`Storyshots Components|Content block segmented With link list 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -31889,6 +31720,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum to
                                     <div
                                       aria-label=" (1:00)"
                                       className="bx--video-player"
+                                      role="region"
                                     >
                                       <div
                                         className="bx--video-player__video-container "
@@ -32673,11 +32505,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum to
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -32705,7 +32532,7 @@ exports[`Storyshots Components|Content block simple Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -33062,11 +32889,6 @@ exports[`Storyshots Components|Content block simple Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -33094,7 +32916,7 @@ exports[`Storyshots Components|Content block simple With image 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -33565,11 +33387,6 @@ exports[`Storyshots Components|Content block simple With image 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -33597,7 +33414,7 @@ exports[`Storyshots Components|Content block simple With link list 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -34591,11 +34408,6 @@ exports[`Storyshots Components|Content block simple With link list 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -34623,7 +34435,7 @@ exports[`Storyshots Components|Content block simple With video 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -34800,6 +34612,7 @@ exports[`Storyshots Components|Content block simple With video 1`] = `
                           <div
                             aria-label=" (1:00)"
                             className="bx--video-player"
+                            role="region"
                           >
                             <div
                               className="bx--video-player__video-container "
@@ -35046,11 +34859,6 @@ exports[`Storyshots Components|Content block simple With video 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -35078,7 +34886,7 @@ exports[`Storyshots Components|Content group Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -35396,11 +35204,6 @@ exports[`Storyshots Components|Content group Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -35425,7 +35228,7 @@ exports[`Storyshots Components|Content group banner Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -35472,11 +35275,6 @@ exports[`Storyshots Components|Content group banner Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -35504,7 +35302,7 @@ exports[`Storyshots Components|Content group cards Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -36142,11 +35940,6 @@ exports[`Storyshots Components|Content group cards Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -36174,7 +35967,7 @@ exports[`Storyshots Components|Content group pictograms Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -36975,11 +36768,6 @@ exports[`Storyshots Components|Content group pictograms Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -37007,7 +36795,7 @@ exports[`Storyshots Components|Content group simple Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -37609,11 +37397,6 @@ dolor nec hendrerit. Phasellus at elit sollicitudin, sodales nulla quis, consequ
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -37641,7 +37424,7 @@ exports[`Storyshots Components|Content item Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -37849,11 +37632,6 @@ exports[`Storyshots Components|Content item Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -37881,7 +37659,7 @@ exports[`Storyshots Components|Content item horizontal Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -38274,11 +38052,6 @@ exports[`Storyshots Components|Content item horizontal Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -38306,7 +38079,7 @@ exports[`Storyshots Components|Content item horizontal With media 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -38365,11 +38138,6 @@ exports[`Storyshots Components|Content item horizontal With media 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -38397,7 +38165,7 @@ exports[`Storyshots Components|Content item horizontal With thumbnail 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -38456,11 +38224,6 @@ exports[`Storyshots Components|Content item horizontal With thumbnail 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -38488,7 +38251,7 @@ exports[`Storyshots Components|Content section Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -38659,11 +38422,6 @@ exports[`Storyshots Components|Content section Default 1`] = `
       </section>
     </ContentSection>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -38695,7 +38453,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -38914,7 +38672,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -40177,6 +39935,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -42168,6 +41927,7 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -46215,11 +45975,6 @@ exports[`Storyshots Components|Dotcom shell Default (footer language only) 1`] =
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -46251,7 +46006,7 @@ exports[`Storyshots Components|Dotcom shell Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -47228,6 +46983,7 @@ exports[`Storyshots Components|Dotcom shell Default 1`] = `
                                         <div
                                           aria-label=" (1:00)"
                                           className="bx--video-player"
+                                          role="region"
                                         >
                                           <div
                                             className="bx--video-player__video-container "
@@ -49219,6 +48975,7 @@ exports[`Storyshots Components|Dotcom shell Default 1`] = `
                                                       <div
                                                         aria-label=" (1:00)"
                                                         className="bx--video-player"
+                                                        role="region"
                                                       >
                                                         <div
                                                           className="bx--video-player__video-container "
@@ -52291,11 +52048,6 @@ exports[`Storyshots Components|Dotcom shell Default 1`] = `
       </Footer>
     </DotcomShell>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -52327,7 +52079,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -52400,7 +52152,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -52869,9 +52621,10 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                 id="1"
                                 inputProps={
                                   Object {
-                                    "aria-expanded": false,
+                                    "aria-expanded": true,
                                     "aria-label": "Search all of IBM",
                                     "className": "bx--header__search--input",
+                                    "id": "bx--header__search--input",
                                     "onChange": [Function],
                                     "onKeyDown": [Function],
                                     "placeholder": "Search all of IBM",
@@ -52924,9 +52677,10 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                   id="1"
                                   inputProps={
                                     Object {
-                                      "aria-expanded": false,
+                                      "aria-expanded": true,
                                       "aria-label": "Search all of IBM",
                                       "className": "bx--header__search--input",
+                                      "id": "bx--header__search--input",
                                       "onBlur": [Function],
                                       "onChange": [Function],
                                       "onFocus": [Function],
@@ -52982,10 +52736,11 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                           "aria-activedescendant": null,
                                           "aria-autocomplete": "list",
                                           "aria-controls": "react-autowhatever-1",
-                                          "aria-expanded": false,
+                                          "aria-expanded": true,
                                           "aria-label": "Search all of IBM",
                                           "autoComplete": "off",
                                           "className": "bx--header__search--input",
+                                          "id": "bx--header__search--input",
                                           "key": "react-autowhatever-1-input",
                                           "onBlur": [Function],
                                           "onChange": [Function],
@@ -53007,11 +52762,12 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                         aria-activedescendant={null}
                                         aria-autocomplete="list"
                                         aria-controls="react-autowhatever-1"
-                                        aria-expanded={false}
+                                        aria-expanded={true}
                                         aria-label="Search all of IBM"
                                         autoComplete="off"
                                         className="bx--header__search--input"
                                         data-autoid="dds--header__search--input"
+                                        id="bx--header__search--input"
                                         key="react-autowhatever-1-input"
                                         name="q"
                                         onBlur={[Function]}
@@ -53026,7 +52782,6 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                       />
                                     </MastheadSearchInput>
                                     <div
-                                      aria-labelledby="react-autowhatever-1"
                                       className="react-autosuggest__suggestions-container"
                                       id="react-autowhatever-1"
                                       key="react-autowhatever-1-items-container"
@@ -53575,6 +53330,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -55566,6 +55322,7 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -58637,11 +58394,6 @@ exports[`Storyshots Components|Dotcom shell Search open 1`] = `
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -58673,7 +58425,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -59053,7 +58805,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -65169,6 +64921,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -67160,6 +66913,7 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -70224,11 +69978,6 @@ exports[`Storyshots Components|Dotcom shell With L1 1`] = `
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -70260,7 +70009,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -70481,7 +70230,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -71748,6 +71497,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -73739,6 +73489,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -76711,11 +76462,6 @@ exports[`Storyshots Components|Dotcom shell With micro footer (language only) 1`
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -76747,7 +76493,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -76821,7 +76567,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -77794,6 +77540,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -79785,6 +79532,7 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -82454,11 +82202,6 @@ exports[`Storyshots Components|Dotcom shell With micro footer 1`] = `
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -82490,7 +82233,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -82566,7 +82309,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -83590,6 +83333,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -85581,6 +85325,7 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -88652,11 +88397,6 @@ exports[`Storyshots Components|Dotcom shell With platform 1`] = `
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -88688,7 +88428,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -88908,7 +88648,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -90173,6 +89913,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -92164,6 +91905,7 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -96209,11 +95951,6 @@ exports[`Storyshots Components|Dotcom shell With short footer (language only) 1`
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -96245,7 +95982,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -96318,7 +96055,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -97289,6 +97026,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -99280,6 +99018,7 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
                                                         <div
                                                           aria-label=" (1:00)"
                                                           className="bx--video-player"
+                                                          role="region"
                                                         >
                                                           <div
                                                             className="bx--video-player__video-container "
@@ -102349,11 +102088,6 @@ exports[`Storyshots Components|Dotcom shell With short footer 1`] = `
       </DotcomShell>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -102385,7 +102119,7 @@ exports[`Storyshots Components|Expressive modal Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -102633,11 +102367,6 @@ exports[`Storyshots Components|Expressive modal Default 1`] = `
       </ComposedModal>
     </ExpressiveModal>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -102669,7 +102398,7 @@ exports[`Storyshots Components|Expressive modal Expanded 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -102918,11 +102647,6 @@ exports[`Storyshots Components|Expressive modal Expanded 1`] = `
       </ComposedModal>
     </ExpressiveModal>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -102950,7 +102674,7 @@ exports[`Storyshots Components|Feature card Large 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -103300,11 +103024,6 @@ exports[`Storyshots Components|Feature card Large 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -103332,7 +103051,7 @@ exports[`Storyshots Components|Feature card Medium 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -103548,11 +103267,6 @@ exports[`Storyshots Components|Feature card Medium 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -103577,7 +103291,7 @@ exports[`Storyshots Components|Feature section Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -103624,11 +103338,6 @@ exports[`Storyshots Components|Feature section Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -103653,7 +103362,7 @@ exports[`Storyshots Components|Filter panel Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -103700,11 +103409,6 @@ exports[`Storyshots Components|Filter panel Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -103735,7 +103439,7 @@ exports[`Storyshots Components|Footer Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -104220,11 +103924,6 @@ exports[`Storyshots Components|Footer Default 1`] = `
       </footer>
     </Footer>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -104255,7 +103954,7 @@ exports[`Storyshots Components|Footer Default language only 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -104464,7 +104163,7 @@ exports[`Storyshots Components|Footer Default language only 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -106065,11 +105764,6 @@ exports[`Storyshots Components|Footer Default language only 1`] = `
       </Default>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -106100,7 +105794,7 @@ exports[`Storyshots Components|Footer Default with adjunct legal links 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -106609,11 +106303,6 @@ exports[`Storyshots Components|Footer Default with adjunct legal links 1`] = `
       </footer>
     </Footer>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -106644,7 +106333,7 @@ exports[`Storyshots Components|Footer Micro 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -106714,7 +106403,7 @@ exports[`Storyshots Components|Footer Micro 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -106795,11 +106484,6 @@ exports[`Storyshots Components|Footer Micro 1`] = `
       </Default>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -106830,7 +106514,7 @@ exports[`Storyshots Components|Footer Micro language only 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -107045,7 +106729,7 @@ exports[`Storyshots Components|Footer Micro language only 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -107570,11 +107254,6 @@ exports[`Storyshots Components|Footer Micro language only 1`] = `
       </Default>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -107605,7 +107284,7 @@ exports[`Storyshots Components|Footer Short 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -107672,7 +107351,7 @@ exports[`Storyshots Components|Footer Short 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -108144,11 +107823,6 @@ exports[`Storyshots Components|Footer Short 1`] = `
       </Default>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -108179,7 +107853,7 @@ exports[`Storyshots Components|Footer Short language only 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -108396,7 +108070,7 @@ exports[`Storyshots Components|Footer Short language only 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -109998,11 +109672,6 @@ exports[`Storyshots Components|Footer Short language only 1`] = `
       </Default>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -110033,7 +109702,7 @@ exports[`Storyshots Components|Footer Short with adjunct legal links 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -110100,7 +109769,7 @@ exports[`Storyshots Components|Footer Short with adjunct legal links 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -110606,11 +110275,6 @@ exports[`Storyshots Components|Footer Short with adjunct legal links 1`] = `
       </Default>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -110639,7 +110303,7 @@ exports[`Storyshots Components|Horizontal rule Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -110733,11 +110397,6 @@ exports[`Storyshots Components|Horizontal rule Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -110765,7 +110424,7 @@ exports[`Storyshots Components|Image Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -110873,11 +110532,6 @@ exports[`Storyshots Components|Image Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -110905,7 +110559,7 @@ exports[`Storyshots Components|Image with caption Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -111095,11 +110749,6 @@ exports[`Storyshots Components|Image with caption Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -111130,7 +110779,7 @@ exports[`Storyshots Components|Layout Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -111399,11 +111048,6 @@ exports[`Storyshots Components|Layout Default 1`] = `
       Eu facilisis sed odio morbi quis commodo. Non tellus orci ac auctor augue mauris augue. Accumsan tortor posuere ac ut. Orci sagittis eu volutpat odio facilisis. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Id leo in vitae turpis massa sed elementum. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Duis ultricies lacus sed turpis tincidunt id aliquet. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Tempus iaculis urna id volutpat lacus. Rhoncus aenean vel elit scelerisque mauris.
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -111431,7 +111075,7 @@ exports[`Storyshots Components|Lead space Centered 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -111743,11 +111387,6 @@ exports[`Storyshots Components|Lead space Centered 1`] = `
       </div>
     </LeadSpace>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -111775,7 +111414,7 @@ exports[`Storyshots Components|Lead space Centered with image 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -112143,11 +111782,6 @@ exports[`Storyshots Components|Lead space Centered with image 1`] = `
       </div>
     </LeadSpace>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -112175,7 +111809,7 @@ exports[`Storyshots Components|Lead space Medium 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -112248,7 +111882,7 @@ exports[`Storyshots Components|Lead space Medium 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -112315,7 +111949,7 @@ exports[`Storyshots Components|Lead space Medium 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -112624,11 +112258,6 @@ exports[`Storyshots Components|Lead space Medium 1`] = `
       </TallWithImage>
     </TallWithNoImage>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -112656,7 +112285,7 @@ exports[`Storyshots Components|Lead space Medium with image 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -112745,7 +112374,7 @@ exports[`Storyshots Components|Lead space Medium with image 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -112828,7 +112457,7 @@ exports[`Storyshots Components|Lead space Medium with image 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -113209,11 +112838,6 @@ exports[`Storyshots Components|Lead space Medium with image 1`] = `
       </TallWithImage>
     </TallWithNoImage>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -113241,7 +112865,7 @@ exports[`Storyshots Components|Lead space Super 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -113314,7 +112938,7 @@ exports[`Storyshots Components|Lead space Super 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -113381,7 +113005,7 @@ exports[`Storyshots Components|Lead space Super 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -113690,11 +113314,6 @@ exports[`Storyshots Components|Lead space Super 1`] = `
       </TallWithImage>
     </TallWithNoImage>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -113722,7 +113341,7 @@ exports[`Storyshots Components|Lead space Super with image 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -113811,7 +113430,7 @@ exports[`Storyshots Components|Lead space Super with image 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -113894,7 +113513,7 @@ exports[`Storyshots Components|Lead space Super with image 1`] = `
                 "barSelectedColor": "#1EA7FD",
                 "barTextColor": "#999999",
                 "base": "light",
-                "brandTitle": "Carbon for IBM.com React v1.32.0",
+                "brandTitle": "Carbon for IBM.com React v1.33.0",
                 "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
                 "colorPrimary": "#FF4785",
                 "colorSecondary": "#1EA7FD",
@@ -114275,11 +113894,6 @@ exports[`Storyshots Components|Lead space Super with image 1`] = `
       </TallWithImage>
     </TallWithNoImage>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -114307,7 +113921,7 @@ exports[`Storyshots Components|Lead space Tall 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -114379,7 +113993,7 @@ exports[`Storyshots Components|Lead space Tall 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -114685,11 +114299,6 @@ exports[`Storyshots Components|Lead space Tall 1`] = `
       </LeadSpace>
     </TallWithImage>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -114717,7 +114326,7 @@ exports[`Storyshots Components|Lead space Tall with image 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -115098,11 +114707,6 @@ exports[`Storyshots Components|Lead space Tall with image 1`] = `
       </div>
     </LeadSpace>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -115130,7 +114734,7 @@ exports[`Storyshots Components|Lead space block Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -116008,11 +115612,6 @@ exports[`Storyshots Components|Lead space block Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -116040,7 +115639,7 @@ exports[`Storyshots Components|Lead space block With Video 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -116276,6 +115875,7 @@ exports[`Storyshots Components|Lead space block With Video 1`] = `
                         <div
                           aria-label=" (1:00)"
                           className="bx--video-player"
+                          role="region"
                         >
                           <div
                             className="bx--video-player__video-container "
@@ -116867,11 +116467,6 @@ exports[`Storyshots Components|Lead space block With Video 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -116896,7 +116491,7 @@ exports[`Storyshots Components|Leaving IBM Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -116943,11 +116538,6 @@ exports[`Storyshots Components|Leaving IBM Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -116975,7 +116565,7 @@ exports[`Storyshots Components|Lightbox media viewer Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -117199,11 +116789,6 @@ exports[`Storyshots Components|Lightbox media viewer Default 1`] = `
       </section>
     </LightboxMediaViewer>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -117231,7 +116816,7 @@ exports[`Storyshots Components|Lightbox media viewer Embedded video player 1`] =
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -117305,7 +116890,7 @@ exports[`Storyshots Components|Lightbox media viewer Embedded video player 1`] =
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -117470,6 +117055,7 @@ exports[`Storyshots Components|Lightbox media viewer Embedded video player 1`] =
                               <div
                                 aria-label=" (1:00)"
                                 className="bx--video-player"
+                                role="region"
                               >
                                 <div
                                   className="bx--video-player__video-container "
@@ -117509,11 +117095,6 @@ exports[`Storyshots Components|Lightbox media viewer Embedded video player 1`] =
       </LightboxMediaViewer>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -117541,7 +117122,7 @@ exports[`Storyshots Components|Link list Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -118508,11 +118089,6 @@ exports[`Storyshots Components|Link list Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -118540,7 +118116,7 @@ exports[`Storyshots Components|Link list End of section 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -119141,11 +118717,6 @@ exports[`Storyshots Components|Link list End of section 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -119173,7 +118744,7 @@ exports[`Storyshots Components|Link list Horizontal 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -119513,11 +119084,6 @@ exports[`Storyshots Components|Link list Horizontal 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -119545,7 +119111,7 @@ exports[`Storyshots Components|Link list Vertical 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -120152,11 +119718,6 @@ exports[`Storyshots Components|Link list Vertical 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -120184,7 +119745,7 @@ exports[`Storyshots Components|Link list Vertical with cards 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -121649,11 +121210,6 @@ exports[`Storyshots Components|Link list Vertical with cards 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -121681,7 +121237,7 @@ exports[`Storyshots Components|Link with icon Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -121776,11 +121332,6 @@ exports[`Storyshots Components|Link with icon Default 1`] = `
       </LinkWithIcon>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -121808,7 +121359,7 @@ exports[`Storyshots Components|Locale modal Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -122136,11 +121687,6 @@ exports[`Storyshots Components|Locale modal Default 1`] = `
       </ComposedModal>
     </LocaleModal>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -122171,7 +121717,7 @@ exports[`Storyshots Components|Logo grid Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -122590,11 +122136,6 @@ exports[`Storyshots Components|Logo grid Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -122623,7 +122164,7 @@ exports[`Storyshots Components|Masthead Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -123297,11 +122838,6 @@ exports[`Storyshots Components|Masthead Default 1`] = `
       </HeaderContainer>
     </Masthead>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -123330,7 +122866,7 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -123772,9 +123308,10 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
                             id="1"
                             inputProps={
                               Object {
-                                "aria-expanded": false,
+                                "aria-expanded": true,
                                 "aria-label": "Search all of IBM",
                                 "className": "bx--header__search--input",
+                                "id": "bx--header__search--input",
                                 "onChange": [Function],
                                 "onKeyDown": [Function],
                                 "placeholder": "Search all of IBM",
@@ -123827,9 +123364,10 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
                               id="1"
                               inputProps={
                                 Object {
-                                  "aria-expanded": false,
+                                  "aria-expanded": true,
                                   "aria-label": "Search all of IBM",
                                   "className": "bx--header__search--input",
+                                  "id": "bx--header__search--input",
                                   "onBlur": [Function],
                                   "onChange": [Function],
                                   "onFocus": [Function],
@@ -123885,10 +123423,11 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
                                       "aria-activedescendant": null,
                                       "aria-autocomplete": "list",
                                       "aria-controls": "react-autowhatever-1",
-                                      "aria-expanded": false,
+                                      "aria-expanded": true,
                                       "aria-label": "Search all of IBM",
                                       "autoComplete": "off",
                                       "className": "bx--header__search--input",
+                                      "id": "bx--header__search--input",
                                       "key": "react-autowhatever-1-input",
                                       "onBlur": [Function],
                                       "onChange": [Function],
@@ -123910,11 +123449,12 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
                                     aria-activedescendant={null}
                                     aria-autocomplete="list"
                                     aria-controls="react-autowhatever-1"
-                                    aria-expanded={false}
+                                    aria-expanded={true}
                                     aria-label="Search all of IBM"
                                     autoComplete="off"
                                     className="bx--header__search--input"
                                     data-autoid="dds--header__search--input"
+                                    id="bx--header__search--input"
                                     key="react-autowhatever-1-input"
                                     name="q"
                                     onBlur={[Function]}
@@ -123929,7 +123469,6 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
                                   />
                                 </MastheadSearchInput>
                                 <div
-                                  aria-labelledby="react-autowhatever-1"
                                   className="react-autosuggest__suggestions-container"
                                   id="react-autowhatever-1"
                                   key="react-autowhatever-1-items-container"
@@ -124208,11 +123747,6 @@ exports[`Storyshots Components|Masthead Search open onload 1`] = `
       </HeaderContainer>
     </Masthead>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -124241,7 +123775,7 @@ exports[`Storyshots Components|Masthead With L1 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -124615,7 +124149,7 @@ exports[`Storyshots Components|Masthead With L1 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -130132,11 +129666,6 @@ exports[`Storyshots Components|Masthead With L1 1`] = `
       </Masthead>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -130165,7 +129694,7 @@ exports[`Storyshots Components|Masthead With alternate logo and tooltip 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -130518,7 +130047,7 @@ exports[`Storyshots Components|Masthead With alternate logo and tooltip 1`] = `
                             onMouseLeave={[Function]}
                           >
                             <button
-                              aria-describedby="definition-tooltip-2"
+                              aria-describedby="definition-tooltip-4"
                               className="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start"
                               onBlur={[Function]}
                               onFocus={[Function]}
@@ -130552,7 +130081,7 @@ exports[`Storyshots Components|Masthead With alternate logo and tooltip 1`] = `
                             </button>
                             <span
                               className="bx--assistive-text"
-                              id="definition-tooltip-2"
+                              id="definition-tooltip-4"
                               role="tooltip"
                             >
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -131027,11 +130556,6 @@ exports[`Storyshots Components|Masthead With alternate logo and tooltip 1`] = `
       </HeaderContainer>
     </Masthead>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -131060,7 +130584,7 @@ exports[`Storyshots Components|Masthead With custom navigation 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -131429,7 +130953,7 @@ exports[`Storyshots Components|Masthead With custom navigation 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -136916,11 +136440,6 @@ exports[`Storyshots Components|Masthead With custom navigation 1`] = `
       </Masthead>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -136949,7 +136468,7 @@ exports[`Storyshots Components|Masthead With platform 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -137011,7 +136530,7 @@ exports[`Storyshots Components|Masthead With platform 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -137725,11 +137244,6 @@ exports[`Storyshots Components|Masthead With platform 1`] = `
       </Masthead>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -137757,7 +137271,7 @@ exports[`Storyshots Components|Pictogram item Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138023,11 +137537,6 @@ exports[`Storyshots Components|Pictogram item Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -138055,7 +137564,7 @@ exports[`Storyshots Components|Quote Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138235,11 +137744,6 @@ exports[`Storyshots Components|Quote Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -138264,7 +137768,7 @@ exports[`Storyshots Components|Search With Typeahead Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138311,11 +137815,6 @@ exports[`Storyshots Components|Search With Typeahead Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -138343,7 +137842,7 @@ exports[`Storyshots Components|Table of contents Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138679,11 +138178,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie condiment
       </section>
     </TableOfContents>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -138709,7 +138203,7 @@ exports[`Storyshots Components|Table of contents Horizontal 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138757,11 +138251,6 @@ exports[`Storyshots Components|Table of contents Horizontal 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -138786,7 +138275,7 @@ exports[`Storyshots Components|Tabs extended Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138833,11 +138322,6 @@ exports[`Storyshots Components|Tabs extended Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -138862,7 +138346,7 @@ exports[`Storyshots Components|Tabs extended media Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138909,11 +138393,6 @@ exports[`Storyshots Components|Tabs extended media Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -138938,7 +138417,7 @@ exports[`Storyshots Components|Tag group Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -138985,11 +138464,6 @@ exports[`Storyshots Components|Tag group Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -139014,7 +138488,7 @@ exports[`Storyshots Components|Tag link Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -139061,11 +138535,6 @@ exports[`Storyshots Components|Tag link Default 1`] = `
       .
     </p>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -139093,7 +138562,7 @@ exports[`Storyshots Components|Video player Aspect ratio 1:1 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -139154,7 +138623,7 @@ exports[`Storyshots Components|Video player Aspect ratio 1:1 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -139207,6 +138676,7 @@ exports[`Storyshots Components|Video player Aspect ratio 1:1 1`] = `
               <div
                 aria-label=" (1:00)"
                 className="bx--video-player"
+                role="region"
               >
                 <div
                   className="bx--video-player__video-container bx--video-player__aspect-ratio--1x1"
@@ -139255,11 +138725,6 @@ exports[`Storyshots Components|Video player Aspect ratio 1:1 1`] = `
       </div>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -139287,7 +138752,7 @@ exports[`Storyshots Components|Video player Aspect ratio 4:3 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -139348,7 +138813,7 @@ exports[`Storyshots Components|Video player Aspect ratio 4:3 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -139401,6 +138866,7 @@ exports[`Storyshots Components|Video player Aspect ratio 4:3 1`] = `
               <div
                 aria-label=" (1:00)"
                 className="bx--video-player"
+                role="region"
               >
                 <div
                   className="bx--video-player__video-container bx--video-player__aspect-ratio--4x3"
@@ -139449,11 +138915,6 @@ exports[`Storyshots Components|Video player Aspect ratio 4:3 1`] = `
       </div>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -139481,7 +138942,7 @@ exports[`Storyshots Components|Video player Default 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -139540,6 +139001,7 @@ exports[`Storyshots Components|Video player Default 1`] = `
             <div
               aria-label=" (1:00)"
               className="bx--video-player"
+              role="region"
             >
               <div
                 className="bx--video-player__video-container bx--video-player__aspect-ratio--default"
@@ -139587,11 +139049,6 @@ exports[`Storyshots Components|Video player Default 1`] = `
       </div>
     </div>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
 
@@ -139619,7 +139076,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
           "barSelectedColor": "#1EA7FD",
           "barTextColor": "#999999",
           "base": "light",
-          "brandTitle": "Carbon for IBM.com React v1.32.0",
+          "brandTitle": "Carbon for IBM.com React v1.33.0",
           "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
           "colorPrimary": "#FF4785",
           "colorSecondary": "#1EA7FD",
@@ -139680,7 +139137,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
               "barSelectedColor": "#1EA7FD",
               "barTextColor": "#999999",
               "base": "light",
-              "brandTitle": "Carbon for IBM.com React v1.32.0",
+              "brandTitle": "Carbon for IBM.com React v1.33.0",
               "brandUrl": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/react",
               "colorPrimary": "#FF4785",
               "colorSecondary": "#1EA7FD",
@@ -139733,6 +139190,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
               <div
                 aria-label=" (1:00)"
                 className="bx--video-player"
+                role="region"
               >
                 <div
                   className="bx--video-player__video-container bx--video-player__aspect-ratio--default"
@@ -139886,6 +139344,7 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
                                           <div
                                             aria-label=" (1:00)"
                                             className="bx--video-player"
+                                            role="region"
                                           >
                                             <div
                                               className="bx--video-player__video-container "
@@ -139961,10 +139420,5 @@ exports[`Storyshots Components|Video player With lightbox media viewer 1`] = `
       </div>
     </Default>
   </div>
-  <input
-    aria-label="input-text-offleft"
-    className="bx--visually-hidden"
-    type="text"
-  />
 </Container>
 `;
