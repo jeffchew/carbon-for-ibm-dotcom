@@ -15,17 +15,17 @@ jobs:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: chore/disable-react-rtl-canary
       - name: Use Node.js 18.x
         uses: actions/setup-node@v4
         with:
           node-version: '18.x'
           cache: 'yarn'
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: |
+          echo 'common/carbon-for-ibm-dotcom/version/2.0.0.alpha.${{ github.run_id }}'
+          yarn install --immutable --immutable-cache
       - name: Build project
-        run: yarn build
+        run: yarn lerna run --ignore '@carbon/react' build
       - name: Create CDN artifacts
         run: yarn build:sass:cdn && yarn build:components
         working-directory: packages/web-components
